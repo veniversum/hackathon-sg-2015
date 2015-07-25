@@ -1,7 +1,7 @@
 import json
 from medify.models import ApprovedMedication 
 import os
-data_file = open(os.path.join("data", "medicinal2.json"))
+data_file = open(os.path.join("data", "medicinal.json"))
 data = json.load(data_file)
 
 ls= data["data"]
