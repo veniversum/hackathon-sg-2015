@@ -29,6 +29,6 @@ class IllegalMedication(models.Model):
 	
 class Pharmacy(models.Model):
     pharmacy_name = models.CharField(max_length=100)
-    zipcode = models.IntegerField
+    zipcode = models.IntegerFiel
     building = models.CharField(max_length=50)
     coords = models.CharField(max_length=50)

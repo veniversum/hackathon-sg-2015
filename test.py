@@ -1,5 +1,5 @@
 import json
-from medify.models import ApprovedMedication 
+from medify.models import ApprovedMedication, IllegalMedication, Pharmacy 
 import os
 data_file = open(os.path.join("data", "medicinal.json"))
 data = json.load(data_file)
