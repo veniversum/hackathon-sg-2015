@@ -18,13 +18,14 @@ class ApprovedMedication(models.Model):
 	
 class IllegalMedication(models.Model):
 	product_name = models.CharField(max_length=100)
-	dosage_form = models.CharField(max_length=50)
-	dosage_form_shape = models.CharField(max_length=50)
-	dosage_form_marking = models.CharField(max_length=50)
-	adulterant_type = models.CharField(max_length=100)
-	country = models.CharField(max_length=50)
-	manufacturer = models.CharField(max_length=200)
-	remarks = models.TextField()
+	dosage_form = models.CharField(max_length=50,blank=True)
+	dosage_form_shape = models.CharField(max_length=50,blank=True)
+	dosage_form_marking = models.CharField(max_length=50,blank=True)
+	dosage_form_colour = models.CharField(max_length=50,blank=True)
+	adulterant_type = models.CharField(max_length=100,blank=True)
+	country = models.CharField(max_length=50,blank=True)
+	manufacturer = models.CharField(max_length=200,blank=True)
+	remarks = models.TextField(blank=True)
 	
 	
 
