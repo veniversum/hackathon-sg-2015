@@ -1,0 +1,3547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Guardian Pharmacy City Square Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 208539</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CITY SQUARE MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.856486789055,1.31139382410603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Scotts Square</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 228209</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SCOTTS SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.832984033963,1.30585616559182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare ARC</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119963</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PSA BUILDING</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.801126624795,1.27367691268982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare YTP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 689578</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - YEWTEE POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.746557743136,1.39730224192383</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MUSTAFA PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 207713</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MUSTAFA CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.856507778427,1.30906504332435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Bedok Central</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 460211</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.93196726517,1.32550117816726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Marina Square</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 39594</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MARINA SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.857007011272,1.29145560053916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Novena Hospital</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 329563</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844225937607,1.32214688437163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy DepartureTransit Lounge North Terminal 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819643</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 2</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.988750656923,1.3551912728997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHG Pharmacy CCK Polyclinic</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 688846</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.750776545349,1.38234172447199</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Hong Leong Building</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 48581</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HONG LEONG BUILDING</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.850914144927,1.28136393872015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy IMM2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 609601</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - IMM BUILDING</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.746876815817,1.33491791550897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC HealthcareThe Living Pharmacy GWC</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 237994</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GREAT WORLD CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.831757588454,1.29380268611036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PHARMED IMPORT  EXPORT PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 188425</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - FU LU SHOU COMPLEX</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.854494858192,1.30145333462971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy Woodlands</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 738579</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WOODLANDS POLYCLINIC</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.775212595807,1.43089355383674</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Thomson Medical Centre</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 307677</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THOMSON MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.841448130193,1.32536440372976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Departure Transit Lounge East</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819642</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 1</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.989706929027,1.36249133852758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>P  L Pharmacy Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 247909</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TANGLIN SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.82703619728,1.30637308895525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd IMM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 609601</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - IMM BUILDING</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.746876815817,1.33491791550897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National University Hosital  Kent Ridge Wing Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119074</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NATIONAL UNIVERSITY HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.782329899263,1.29419457537098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Specialist Compounding Pharmacy Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 138668</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CENTROS</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.791792331833,1.30381649176116</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VERTEX PHARMACY PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 328201</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.865498987945,1.32428135435123</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Plaza Singapura</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238839</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PLAZA SINGAPURA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844991260795,1.30011778934688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PARKWAY EAST HOSPITAL PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 427990</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARKWAY EAST HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.908756542078,1.31508857100488</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Clementi Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 129588</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.764422736987,1.31489653159905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare TBR</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168732</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TIONG BAHRU PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.826934761736,1.28646378833044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Bedok Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 467360</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BEDOK MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.929267336622,1.32477241506882</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGHEALTH POLY  PASIR RIS</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 519457</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.959197676837,1.36858736639209</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Resort World Sentosa</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 98138</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RESORTS WORLD SENTOSA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.819812114853,1.25644560042472</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ST LUKES HOSPITAL BLOCK A</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 659674</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.741877300491,1.34953640056202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tan Tock Seng Hospital Outpatient  Retail Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mount Elizabeth Novena Hospital Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 329563</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844225937607,1.32214688437163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare The Living Pharmacy AMK</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 569933</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.848398900443,1.36924925338849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare HPT</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 538692</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HOUGANG 1</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.87944993035,1.37566760690912</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Skin Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 449269</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARKWAY PARADE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.90511326612,1.30119164715155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare BTP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 588996</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT TIMAH PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.778585107457,1.33863198069505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare TMJ</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 610399</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.720267696275,1.33504236378522</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHG Pharmacy Yishun</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 768796</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.838333092549,1.42653783930948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare WSA</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 518457</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949596282368,1.37237287934525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Lakeside MRT Station</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 649845</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LAKESIDE MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.720301539331,1.34410510559487</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Clifford Centre 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 48621</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CLIFFORD CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.852127854014,1.28385731918358</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Balestier Medical Center</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 329784</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.85055313936,1.32440588234446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Singapore General Hospital Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 169608</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SINGAPORE GENERAL HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.833999070567,1.2785425977602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tan Tock Seng Hospital Pharmacy Level 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare  The Living Pharmacy TMA</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 247933</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TANGLIN MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.823852470346,1.3048437827306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Centrepoint Basement</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238843</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CENTREPOINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.839758579455,1.30197838049518</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bukit Timah Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 588996</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT TIMAH PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.778585107457,1.33863198069505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy Jurong</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 609788</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.730717541881,1.34972012788934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Addiction Management Services NAMS Clinic Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 539747</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - INSTITUTE OF MENTAL HEALTH</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.883348477178,1.38158988855886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare PSG</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238839</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PLAZA SINGAPURA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844991260795,1.30011778934688</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd United Square</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 307591</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - UNITED SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843462852645,1.31733496953892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare BMC</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 150166</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.817611320551,1.28306745239233</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Hougang Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 538766</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HOUGANG MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.893661284097,1.37231220423245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare  The Living Pharmacy LT1</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 689812</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.744950057105,1.38506869181735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Takashimaya S C </name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238872</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NGEE ANN CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.834675802225,1.30242451333319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Heart Centre Singapore</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 169609</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NATIONAL HEART CENTRE OF SINGAPORE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835954097748,1.27863294346406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Jurong Point 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 648331</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JURONG POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.705367386894,1.33939777185501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Jurong Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 648886</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JURONG POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.706460564258,1.33983049043501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare JRP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 648886</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JURONG POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.706460564258,1.33983049043501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare HLC</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 538766</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NTUC HOUGANG MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.893661284097,1.37231220423245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd NEX</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 556083</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NEX</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.871861295858,1.35067585119019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd JEM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 608549</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JEM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.743284221184,1.33322926688484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRACE HEALTHCARE</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 650634</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.751530954917,1.34973995340417</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Ngee Ann City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238872</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NGEE ANN CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.834675802225,1.30242451333319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Parkway Parade</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 449269</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARKWAY PARADE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.90511326612,1.30119164715155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare BDK</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 460212</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.931546376699,1.32597857491424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare NMA</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 556083</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NEX</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.871861295858,1.35067585119019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Paragon</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238859</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARAGON</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835239985778,1.30372355519846</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CGH Pharmacy A</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529889</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI GENERAL HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949294057674,1.34068507849618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pharmacy Services Centre</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 539747</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - INSTITUTE OF MENTAL HEALTH</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.883348477178,1.38158988855886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Changi City Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 486038</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.962388984256,1.33432548753349</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Store Pte Ltd Lucky Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238863</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LUCKY PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.833844256856,1.30455070598159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Toa Payoh Blk 190</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 310190</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.847965104468,1.33297594708938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Raffles Hospital Inpatient Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 188770</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RAFFLES HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.857243398006,1.30114364006404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Holland Shopping Centre</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 278967</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HOLLAND RD SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.795350116615,1.31025575324034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Bugis Junction</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 188021</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.85532763195,1.29906832050538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Lavender MRT Station</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 208699</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LAVENDER MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.862767317324,1.30737784163228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Causeway Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 738099</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CAUSEWAY POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.785624160615,1.43614826938552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Customized Health Solutions Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238859</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARAGON THE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835239985778,1.30372355519846</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CGH Pharmacy B</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529889</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI GENERAL HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949294057674,1.34068507849618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Chinatown Point 4</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 59413</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHINATOWN POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844696761947,1.28499916466521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Gleneagles</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 258499</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GLENEAGLES MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.820073903552,1.30757935129711</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Healing Hub  Ang Mo Kio  Thye Hua Kwan Hospital</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 569766</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.840171789725,1.38427949639593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Skin Pharmacy Jem</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 608549</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JEM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.743284221184,1.33322926688484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Mount Elizabeth</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 228510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MOUNT ELIZABETH MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835439022178,1.30516555652557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN TOCK SENG HOSPITAL PTE LTD EMERGENCY PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare TPM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAMPINES MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.944257972045,1.35270013336519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy H205</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 530205</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HEARTLAND MALL KOVAN</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.885079596304,1.35949698791752</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Amber Compounding Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 239924</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SINGAPORE SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.844111002707,1.29815299294276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy FMCAng Mo Kio</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 569841</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BROADWAY PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.845953749775,1.37193902596801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Alps Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 498787</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LIAN SOON AMENITY CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>104.00290646479,1.37602367656143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare TPG</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 81005</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843005330506,1.27623841678563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHG Pharmacy Bukit Batok Polyclinic</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 659164</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.74782194492,1.35201550000637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Japanese Association Clinic Singapore</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 289899</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JAPANESE CLUB</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.815929333131,1.3306623474349</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Johns Hopkins Singapore International Medical Centre Pte Ltd Inpatient Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Alexandra Hospital Outpatient Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 159964</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ALEXANDRA HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.79944452365,1.28812254203599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Changi Airport T1 CheckIn Hall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819658</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.986009098431,1.34858681354695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Retail Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 169608</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SINGAPORE GENERAL HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.833999070567,1.2785425977602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Funan IT Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 179097</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - FUNAN</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84996140531,1.29142741434113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Admiralty</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 731678</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MULTI STOREY CAR PARK</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.801537039659,1.44036400373</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Ion Orchard</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238801</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ION ORCHARD</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.83139481286,1.30403611991906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Skin Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 556083</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NEX</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.871861295858,1.35067585119019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Great World City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 237994</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GREAT WORLD CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.831757588454,1.29380268611036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Raffles City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 179103</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RAFFLES CITY SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.852768001751,1.29376061751501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Terminal 1 Transit</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819642</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 1</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.989706929027,1.36249133852758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Tampines Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAMPINES MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.944257972045,1.35270013336519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AM Pharmacy Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238841</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ORCHARD PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.841149823408,1.30125763036612</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WESTMEAD PHARMACY PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 498787</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LIAN SOON AMENITY CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>104.00290646479,1.37602367656143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MEDILINK PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 200803</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.860887538065,1.3082949512473</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Novena Square</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 307683</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NOVENA SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843850315364,1.31996782122256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Vivocity</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 98585</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.821808296959,1.26439502238105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN TOCK SENG HOSPITAL PTE LTD MAIN PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jurong Medical Centre Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 648346</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.70445235465,1.34046989474486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Ang Mo Kio 3</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 560704</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.847230399347,1.37040744905139</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Tampines MRT</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529538</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAMPINES MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.944837974355,1.35364691195227</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Vivo City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 98585</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.821808296959,1.26439502238105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TTSH Outpatient Pharmacy Temporary</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare ESP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 528578</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.952675891107,1.34333706297341</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KK Womens  Childrens Hospital Main Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 229899</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - KK WOMENS AND CHILDRENS HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84664975342,1.31044886495468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy JEM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 608549</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JEM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.743284221184,1.33322926688484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHANGI GENERAL HOSPITAL PTE LTD BASEMENT PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529889</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949294057674,1.34068507849618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ALCHEMY PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 510258</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LOYANG POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.964635292333,1.367066674271</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NISHINO PHARMACY SHAW HOUSE</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238868</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SHAW HOUSE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.831476991722,1.30580651530134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL CANCER CENTRE PHARMACY LEVEL 1</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 169610</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.836531236401,1.27929123638448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL CANCER CENTRE PHARMACY LEVEL 3</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 169610</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.836531236401,1.27929123638448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WESTPOINT FAMILY HOSPITAL PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 619771</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WESTPOINT FAMILY HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.722829093813,1.33102469698275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MOHAMED MUSTAFA  SAMSUDDIN CO  PTE LTD MUSTAFA CENTRE</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 207704</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MUSTAFA CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.855290505481,1.31011250759238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COMMUNITY PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 588996</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT TIMAH PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.778585107457,1.33863198069505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL UNIVERSITY HOSPITAL S PTE LTD  RETAIL PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119074</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MAIN BLOCK</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.782329899263,1.29419457537098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL SKIN CENTRE S PTE LTD PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308205</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.849089404344,1.31955159844134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TONG KENG HONG DRUG STORE</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 49317</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THE ARCADE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.852058542562,1.28362016086048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGAPORE NATIONAL EYE CENTRE PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168751</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835809057239,1.28104820032116</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL SKIN CENTRE S PTE LTD DSC CLINIC PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 200031</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.856826467786,1.30630402585218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL UNIVERSITY HOSPITAL S PTE LTD  HOSPITAL PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119074</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.782329899263,1.29419457537098</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ORCHARD PHARMACY PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238875</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ORCHARD TOWERS</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.829073283923,1.30689746836269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TAN TOCK SENG HOSPITAL PTE LTD CDC PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLENEAGLES HOSPITAL</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 258500</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GLENEAGLES HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.819596817757,1.30743409327152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mount Elizabeth Hospital</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 228510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MOUNT ELIZABETH HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835439022178,1.30516555652557</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PRINCETON PHARMACY S PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 129808</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.763539229828,1.32518173537887</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pharmaplus Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 248649</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CAMDEN CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.823936718969,1.3031516686481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KK Outpatient Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 229899</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - KK WOMENS AND CHILDRENS HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84664975342,1.31044886495468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGHEALTH POLYBEDOK</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 460212</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.931546376699,1.32597857491424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy Clementi</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 120451</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.765476738007,1.31248115616556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KK Emergency Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 229899</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - KK WOMENS AND CHILDRENS HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84664975342,1.31044886495468</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Essentials Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 58357</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PEOPLES PARK CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84385167928,1.28549561037197</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Nishino Pharmaceutical Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238873</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAKASHIMAYA SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.834675802225,1.30242451333319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Johns Hopkins Singapore International Medical Centre Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 308433</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAN TOCK SENG HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84538868903,1.32171631367975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SMITH PHARMACY PTE LTD</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 310194</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - KIM KEAT VIEW</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.858181590912,1.33093966995257</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NHG Pharmacy Hougang</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 538829</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.888996063454,1.37001837835345</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Serangoon Garden</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 555962</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.865452330239,1.36414354362596</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Compass Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 545078</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - COMPASS POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.894979702823,1.39209448261065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bukit Panjang Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 677743</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT PANJANG PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.763993628179,1.38054278655805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clinic B Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 539747</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.883348477178,1.38158988855886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Child Guidance Clinic Health Promotion Board</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168937</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.838314726086,1.27933181147448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ST ANDREWS COMMUNITY HOSPITAL PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529895</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SAINT ANDREWS HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.948759109312,1.34177666423261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NATIONAL UNIVERSITY HOSPITALS PTE LTD MEDICAL CENTRE PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119082</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NUH MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.784083689543,1.2927746521532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Toa Payoh HDB Hub</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 310190</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.847965104468,1.33297594708938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy West Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 658713</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WEST MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.749021661063,1.35018949225919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National University Hospital s Pte Ltd Pharmacy  NCIS</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119082</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NUH MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.784083689543,1.2927746521532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare MPR</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 449411</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.907176895995,1.30133780027006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy DepartureCheck In Hall North</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819643</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 2</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.988750656923,1.3551912728997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Unity Healthcare TP2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 319398</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TOA PAYOH MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.847420624989,1.33267904288528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy ION</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238801</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ION ORCHARD</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.83139481286,1.30403611991906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd International Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 79903</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - INTERNATIONAL PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.845702898735,1.27573601504818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Unity Healthcare KWM Kallang Wave Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 397628</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.8727503807,1.30384361092924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MT ALVERNIA HOSPITAL RETAIL PHARMACY</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 574623</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MOUNT ALVERNIA HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.83758105935,1.34180523834087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare WCC</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 730900</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WOODLANDS CIVIC CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.78661928863,1.43507823363976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Compass Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 545078</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - COMPASS POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.894979702823,1.39209448261065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy United Square 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 307591</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - UNITED SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843462852645,1.31733496953892</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Serangoon NEX</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 556083</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NEX</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.871861295858,1.35067585119019</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNITY WSA White Sands</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 518457</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949596282368,1.37237287934525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Tampines Century Square 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529509</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CENTURY SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.943709412358,1.35240268198101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Sport HubKallang Wave</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 397628</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.8727503807,1.30384361092924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNITY OKM OneKM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 437157</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ONE KM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.894480204435,1.31469246997186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Jelita</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 278628</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - COLD STORAGE JELITA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.785840297662,1.31756230169075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy LOT 1</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 689812</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.744950057105,1.38506869181735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Greenwich</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 807011</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GREENWICH THE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.869135662143,1.38739572419669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Harbourfront Centre</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 99253</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HARBOURFRONT CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.819291653011,1.26451816995793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Tiong Bahru Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168732</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TIONG BAHRU PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.826934761736,1.28646378833044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Yew Tee MRT</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 689715</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - YEW TEE MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.747329394838,1.39712919166821</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Thomson Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 574408</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THOMSON PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.830838560919,1.3546531223482</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Hougang Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 538766</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HOUGANG MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.893661284097,1.37231220423245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Amber Compounding Pharmacy Pte Ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 58770</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.845873012083,1.28289707597265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Holland Village</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 278967</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HOLLAND ROAD SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.795350116615,1.31025575324034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Marina Bay Financial Centre</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 18984</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MARINA BAY LINK MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.853348973971,1.28022801764498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Khoo Teck Puat Hospital Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 768828</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.837853339919,1.42387793347301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Marina Bay Sands</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 18972</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MARINA BAY SANDS</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.857505722682,1.28334334578073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy 313  Somerset</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238895</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - 313  SOMERSET</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.838246270336,1.30100690712208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Star Vista</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 138617</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THE STAR</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.788214210577,1.306849160917</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Tanglin Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 247933</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TANGLIN MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.823852470346,1.3048437827306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Pasir Ris Drive 6</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 510442</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.957951402799,1.36893321836015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>UNITY NTUC Healthcare WM1</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 658713</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WEST MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.749021661063,1.35018949225919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Raffles Place MRT 3</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 48618</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RAFFLES PLACE MRT STATION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.851453080525,1.28422167460493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Northpoint</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 769098</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NORTHPOINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835776166949,1.42969881121852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare  The Living Pharmacy TPO</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529536</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAMPINES ONE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.945019135434,1.35431589319351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Katong Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 428802</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - 112 KATONG</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.905014611495,1.30523505719994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Great World City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 237994</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GREAT WORLD CITY</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.831757588454,1.29380268611036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Changi Airport Terminal 3 Transit</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819663</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 3</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.985169321753,1.35437107041035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Marina Bay Sands</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 18972</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MARINA BAY SANDS</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.857505722682,1.28334334578073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd OneKentridge</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 119082</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NUH MEDICAL CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.784083689543,1.2927746521532</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare  The Living Pharmacy TSP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 574408</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THOMSON PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.830838560919,1.3546531223482</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Changi Airport T3 Basement</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819663</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 3</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.985169321753,1.35437107041035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bedok Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 467360</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BEDOK MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.929267336622,1.32477241506882</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Causeway Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 738099</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CAUSEWAY POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.785624160615,1.43614826938552</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Tampines Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TAMPINES MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.944257972045,1.35270013336519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGHEALTH POLY TAMPINES</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 529203</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.945849149518,1.35731028698537</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare PGP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 820168</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.912890126693,1.39425662817758</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Suntec City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 38983</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - SUNTEC CITY MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.857413655342,1.29469095895413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare RVP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 540118</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RIVERVALE PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.901557703225,1.38493235004448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Singhealth Poly  Bukit Merah</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 150163</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.816992086611,1.28369297959086</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SHP  Marine Parade</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 440080</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.907738475078,1.30248236847443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy Ang Mo Kio</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 560723</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.847181705113,1.37231892627306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>National Healthcare Group Pharmacy Toa Payoh</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 319260</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.858956119873,1.33448061063789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy White Sands 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 518457</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.949596282368,1.37237287934525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy WRS</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 528765</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.9320059684,1.37210150662274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Raffles City</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 179103</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - RAFFLES CITY SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.852768001751,1.29376061751501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare BPP</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 677743</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT PANJANG PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.763993628179,1.38054278655805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare CMA</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 129588</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - THE CLEMENTI MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.764422736987,1.31489653159905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Tiong Bahru Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168732</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - TIONG BAHRU PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.826934761736,1.28646378833044</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Singhealth Poly  Sengkang</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 545025</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.893905781131,1.39278592462896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGHEALTH POLYQUEENSTOWN</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 148958</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.800957472969,1.29847581127783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC UNITY Healthcare AM3 AMK MRT Station</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 569811</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.849454903935,1.36942888125276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pacific Truste Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 600326</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.729608955968,1.34902214840669</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Bukit Panjang Plaza</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 677743</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUKIT PANJANG PLAZA</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.763993628179,1.38054278655805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Kallang Leisure Park 2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 397693</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - LEISURE PARK KALLANG</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.876152341562,1.30222210629062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>jw compounding pharmacy pte ltd</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 82001</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.842392842531,1.27559653333653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare YSH</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 760849</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835217853511,1.4169835009063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Amara Hotel</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 79027</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - 100 AM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843470417417,1.27458855394478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Departure Lounge South T2</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819643</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 2</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.988750656923,1.3551912728997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Northpoint</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 769098</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NORTHPOINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835776166949,1.42969881121852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Orchard Towers</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 229594</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - ORCHARD TOWERS</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.829351871224,1.30756270777481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Dental Pharm</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168938</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.838232160262,1.27975936282349</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Novena Square</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 307683</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - NOVENA SQUARE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.843850315364,1.31996782122256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare HBF</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 99253</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HARBOURFRONT CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.819291653011,1.26451816995793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Zhongsan Park</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 329984</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.846476140438,1.3270851970063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SINGHEALTH POLYOUTRAM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 168937</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - HEALTH PROMOTION BOARD</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.838314726086,1.27933181147448</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Singhealth Poly  Geylang</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 389707</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - GEYLANG POLYCLINIC</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.887165721374,1.31949398898561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Paragon</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 238859</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARAGON THE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.835239985778,1.30372355519846</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare JCU</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 609731</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JCUBE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.740186751286,1.33332344798754</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare WGA Westgate</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 608532</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WESTGATE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.742762943095,1.33415833003062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Parkway Parade</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 449269</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - PARKWAY PARADE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.90511326612,1.30119164715155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mount Alvernia Hospital Main Pharmacy</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 574623</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - MOUNT ALVERNIA HOSPITAL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.83758105935,1.34180523834087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd West Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 658713</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - WEST MALL</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.749021661063,1.35018949225919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare VPT Vista Point</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 730548</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - VISTA POINT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.793804561469,1.43044394519293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare JEM</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 608549</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JEM</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.743284221184,1.33322926688484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watsons Personal Care Stores Pte Ltd Changi Airport T3 Check in Hall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 819663</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - CHANGI AIRPORT TERMINAL 3</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.985169321753,1.35437107041035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy City Link</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 39393</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.854173177133,1.29277807092155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bedok Central</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 460210</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.931818851851,1.32460738922308</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bugis Junction 3</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 188021</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUGIS JUNCTION</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.85532763195,1.29906832050538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bishan Place</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 579837</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - JUNCTION 8 SHOPPING CENTRE</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.848477304423,1.35023975791721</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Bugis MRT</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 188022</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - BUGIS MRT</b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.855614439009,1.30026502765785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guardian Pharmacy Clementi Mall</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 129588</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.764422736987,1.31489653159905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NTUC Healthcare BSH</name>
+<description>
+<p><font color="red"><i></i>
+<b>PostalCode - 570510</b>
+</font></p>
+<p><font color="Blue"><i></i>
+<b>Description - </b>
+</font></p>
+</description>
+<Point>
+<coordinates>103.84969191187,1.3488888122622</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
