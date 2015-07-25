@@ -73,35 +73,35 @@ def omni_search(request):
         tsum = len(results["illegal_medication"]) + len(results["approved_medication"]) + len(results["approved_devices"])
 
         if tsum < 5:
+            count = 0
             illegalMedValues = illegalMeds.values()
             for value_name in ["product_name", "manufacturer"]:
                 for med in illegalMedValues:
                     if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
                         if med not in results["illegal_medication"]:
                             results["illegal_medication"].append(med)
-                            tsum += 1
-                            if tsum > 10:
+                            count += 1
+                            if count > 3:
                                 break
-
-        if tsum < 5:
+            count = 0
             approvedMedValues = approvedMeds.values()
             for value_name in ["product_name", "manufacturer", "active_ingredients"]:
                 for med in approvedMedValues:
                     if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
                         if med not in results["approved_medication"]:
                             results["approved_medication"].append(med)
-                            tsum += 1
-                            if tsum > 10:
+                            count += 1
+                            if count > 3:
                                 break
-        if tsum < 5:
+            count = 0
             approvedDeviceValues = approvedDevices.values()
             for value_name in ["device_name", "product_owner_name", "models_name"]:
                 for dev in approvedDeviceValues:
                     if fuzzy_substring(substring.lower(), dev[value_name].lower()) < 0.25 * len(substring):
                         if dev not in results["approved_devices"]:
                             results["approved_devices"].append(dev)
-                            tsum += 1
-                            if tsum > 10:
+                            count += 1
+                            if count > 3:
                                 break
 
         return JsonResponse(results)
