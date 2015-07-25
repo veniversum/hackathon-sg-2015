@@ -13,9 +13,9 @@
         <script type="text/javascript" src="{% static 'medify/js/jquery-2.1.4.js' %}"></script>
         <script type="text/javascript" src="{% static 'medify/js/materialize.js' %}"></script>
         {% block js %}{% endblock %}
-        <div class="navbar-fixed">
+        <div class="navbar-fixed" role="navigation">
             <nav>
-                <div class="nav-wrapper">
+                <div class="nav-wrapper container">
                     <a href="{% url 'index' %}" class="brand-logo">Medify</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="{% url 'index' %}">Search</a></li>

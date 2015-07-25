@@ -33,6 +33,8 @@ data = json.load(data_file)
 
 ls= data["data"]
 for item in ls:
+	item["registration_date"] = item["registration_date"][-4:]+"-"+item["registration_date"][3:5]+"-"+item["registration_date"][:2]
+	item["expiry_date"] = item["expiry_date"][-4:]+"-"+item["expiry_date"][3:5]+"-"+item["expiry_date"][:2]
 	dev= ApprovedDevice(**item)
 	dev.save()
 	
