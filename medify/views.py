@@ -72,7 +72,7 @@ def omni_search(request):
 
         tsum = len(results["illegal_medication"]) + len(results["approved_medication"]) + len(results["approved_devices"])
 
-        if tsum < 5:
+        if tsum == 0:
             count = 0
             illegalMedValues = illegalMeds.values()
             for value_name in ["product_name", "manufacturer"]:

@@ -2,29 +2,58 @@
 {% load staticfiles %}
 {% block title %}Pharmacies{% endblock %}
 
-{% block content %}
-<br><input id="button" type="button" value="Show Registered Pharmacies"/><br><br>
-<div id="divMain">
-</div>
-<br>
-  <script type='text/JavaScript' src='http://www.onemap.sg/API/JS?accessKEY=o4AXRje/hx0BgO4owE0iK/4R/MXnMuXtyFF2loCYEB+OJfHp0CSeHRg6c5Hv3dxbtzUfvzqM0tox+cOdBxW+GSBGTgXrC9mj &v=3.10&type=full'></script>
-   <script>    
-    $(document).ready(function(){
-      var OneMap = new GetOneMap('divMain', 'sm');
-      $("#divMain").bind('DOMNodeInserted DOMNodeRemoved', function() {
-        if (OneMap.map) {
-          console.log(OneMap);
-          $("#divMain").unbind('DOMNodeInserted DOMNodeRemoved');
-          OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
-        }
-      });
-		//  $("#button").click(function(){
-		// 	OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
-		// });
-		// $("#button").click();
-	});
+{% block js %}
+<script type='text/JavaScript' src='http://www.onemap.sg/API/JS?accessKEY=o4AXRje/hx0BgO4owE0iK/4R/MXnMuXtyFF2loCYEB+OJfHp0CSeHRg6c5Hv3dxbtzUfvzqM0tox+cOdBxW+GSBGTgXrC9mj &v=3.10&type=full'></script>
+<script>    
+  $(document).ready(function(){
+    var OneMap = new GetOneMap('divMain', 'SM', {level: 2});
+    $("#divMain").bind('DOMNodeInserted DOMNodeRemoved', function() {
+      if (OneMap.map) {
+        $("#divMain").unbind('DOMNodeInserted DOMNodeRemoved');
+        OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
+      }
+    });
 
+    $("#nearestPharmacies").click(function(){
+      var options = { 
+        enableHighAccuracy: true,
+        //timeout: 5000,
+        maximumAge: 0
+      };
+
+      function success(pos) {
+        var coord = pos.coords;
+        var inXYList = [coord.longitude, coord.latitude].join(",");
+        var inputSR = 4326;
+        var outputSR = 3414;
+        var CoordConvertorObj = new CoordConvertor();
+        CoordConvertorObj.ConvertCoordinate(inXYList, inputSR, outputSR, function(outXY) {
+          var c = outXY.split(",");
+          OneMap.showLocation(parseFloat(c[1]), parseFloat(c[0]));
+        });
+      };
+
+      function error(err) {
+        console.log(err);
+      };
+
+      navigator.geolocation.getCurrentPosition(success, error, options);
+    });
+  });
+  </script>
 </script>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="card">
+    <div class="card-content" id="divMain">
+    </div>
+    <div class="card-action">
+      <a href="#" id="nearestPharmacies">Nearest Pharmacies</a>
+    </div>
+  </div>
+</div>
 {% endblock %}
 
 
