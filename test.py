@@ -1,6 +1,7 @@
 import json
 from medify.models import ApprovedMedication 
-data_file = open('data\medicinal2.json')
+import os
+data_file = open(os.path.join("data", "medicinal2.json"))
 data = json.load(data_file)
 
 
