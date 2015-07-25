@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from . import models
+from django.db.models import Q
+from .models import *
 
 # Create your views here.
 
@@ -44,35 +45,64 @@ def omni_search(request):
     if request.method == "GET":
         substring = request.GET["search"]
 
-        illegalMeds = models.IllegalMedication.objects.all()
-        approvedMeds = models.ApprovedMedication.objects.all()
-        approvedDevices = models.ApprovedDevice.objects.all()
+        illegalMeds = IllegalMedication.objects.all()
+        approvedMeds = ApprovedMedication.objects.all()
+        approvedDevices = ApprovedDevice.objects.all()
 
         results = {
             "illegal_medication": [],
             "approved_medication": [],
             "approved_devices": [],
         }
+        
+        illegalMedsMatch = IllegalMedication.objects.filter(Q(product_name__icontains=substring)|Q(manufacturer__icontains=substring))[:5].values()
+        
+        for item in illegalMedsMatch:
+	    results["illegal_medication"].append(item)
+		
+	approvedMedsMatch= ApprovedMedication.objects.filter(Q(product_name__icontains=substring)|Q(manufacturer__icontains=substring)|Q(active_ingredients__icontains=substring))[:5].values()
+        
+        for item in approvedMedsMatch:
+	    results["approved_medication"].append(item)
 
-        illegalMedValues = illegalMeds.values()
-        for value_name in ["product_name", "manufacturer"]:
-            for med in illegalMedValues:
-                if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
-                    if med not in results["illegal_medication"]:
-                        results["illegal_medication"].append(med)
+	approvedDeviceMatch = ApprovedDevice.objects.filter(Q(device_name__icontains=substring)|Q(product_owner_name__icontains=substring)|Q(models_name__icontains=substring))[:5].values()
 
-        approvedMedValues = approvedMeds.values()
-        for value_name in ["product_name", "manufacturer", "active_ingredients"]:
-            for med in approvedMedValues:
-                if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
-                    if med not in results["approved_medication"]:
-                        results["approved_medication"].append(med)
+        
+        for item in approvedDeviceMatch:
+	    results["approved_devices"].append(item)
 
-        approvedDeviceValues = approvedDevices.values()
-        for value_name in ["device_name", "product_owner_name", "models_name"]:
-            for dev in approvedDeviceValues:
-                if fuzzy_substring(substring.lower(), dev[value_name].lower()) < 0.25 * len(substring):
-                    if dev not in results["approved_devices"]:
-                        results["approved_devices"].append(dev)
+        tsum=len(results["illegal_medication"])+len(results["approved_medication"])+len(results["approved_devices"])
+	    
+        if tsum<5:
+            illegalMedValues = illegalMeds.values()
+            for value_name in ["product_name", "manufacturer"]:
+                for med in illegalMedValues:
+                    if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
+                        if med not in results["illegal_medication"]:
+                            results["illegal_medication"].append(med)
+                            tsum+=1
+                            if tsum>10:
+                                break
+                      
+        if tsum<5:
+            approvedMedValues = approvedMeds.values()
+            for value_name in ["product_name", "manufacturer", "active_ingredients"]:
+                for med in approvedMedValues:
+                    if fuzzy_substring(substring.lower(), med[value_name].lower()) < 0.25 * len(substring):
+                        if med not in results["approved_medication"]:
+                            results["approved_medication"].append(med)
+                            tsum+=1
+                            if tsum>10:
+                                break
+        if tsum<5:
+            approvedDeviceValues = approvedDevices.values()
+            for value_name in ["device_name", "product_owner_name", "models_name"]:
+                for dev in approvedDeviceValues:
+                    if fuzzy_substring(substring.lower(), dev[value_name].lower()) < 0.25 * len(substring):
+                        if dev not in results["approved_devices"]:
+                            results["approved_devices"].append(dev)
+                            tsum+=1
+                            if tsum>10:
+                                break
 
         return JsonResponse(results)
