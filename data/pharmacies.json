@@ -1,0 +1,1522 @@
+{"data":	
+	[
+		{
+		"name":"Guardian Pharmacy City Square Mall",
+		"zipcode":"208539",
+		"building":"CITY SQUARE MALL",
+		"coords":"103.856486789055,1.31139382410603"
+		},
+		{
+		"name":"Guardian Pharmacy Scotts Square",
+		"zipcode":"228209",
+		"building":"SCOTTS SQUARE",
+		"coords":"103.832984033963,1.30585616559182"
+		},
+		{
+		"name":"NTUC Healthcare ARC",
+		"zipcode":"119963",
+		"building":"PSA BUILDING",
+		"coords":"103.801126624795,1.27367691268982"
+		},
+		{
+		"name":"NTUC Healthcare YTP",
+		"zipcode":"689578",
+		"building":"YEWTEE POINT",
+		"coords":"103.746557743136,1.39730224192383"
+		},
+		{
+		"name":"MUSTAFA PHARMACY",
+		"zipcode":"207713",
+		"building":"MUSTAFA CENTRE",
+		"coords":"103.856507778427,1.30906504332435"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Bedok Central",
+		"zipcode":"460211",
+		"building":"",
+		"coords":"103.93196726517,1.32550117816726"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Marina Square",
+		"zipcode":"39594",
+		"building":"MARINA SQUARE",
+		"coords":"103.857007011272,1.29145560053916"
+		},
+		{
+		"name":"Guardian Pharmacy Novena Hospital",
+		"zipcode":"329563",
+		"building":"",
+		"coords":"103.844225937607,1.32214688437163"
+		},
+		{
+		"name":"Guardian Pharmacy Departure Transit Lounge North Terminal 2",
+		"zipcode":"819643",
+		"building":"CHANGI AIRPORT TERMINAL 2",
+		"coords":"103.988750656923,1.3551912728997"
+		},
+		{
+		"name":"NHG Pharmacy CCK Polyclinic",
+		"zipcode":"688846",
+		"building":"",
+		"coords":"103.750776545349,1.38234172447199"
+		},
+		{
+		"name":"Guardian Pharmacy Hong Leong Building",
+		"zipcode":"48581",
+		"building":"HONG LEONG BUILDING",
+		"coords":"103.850914144927,1.28136393872015"
+		},
+		{
+		"name":"Guardian Pharmacy IMM2",
+		"zipcode":"609601",
+		"building":"IMM BUILDING",
+		"coords":"103.746876815817,1.33491791550897"
+		},
+		{
+		"name":"NTUC Healthcare The Living Pharmacy GWC",
+		"zipcode":"237994",
+		"building":"GREAT WORLD CITY",
+		"coords":"103.831757588454,1.29380268611036"
+		},
+		{
+		"name":"PHARMED IMPORT  EXPORT PTE LTD",
+		"zipcode":"188425",
+		"building":"FU LU SHOU COMPLEX",
+		"coords":"103.854494858192,1.30145333462971"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy Woodlands",
+		"zipcode":"738579",
+		"building":"WOODLANDS POLYCLINIC",
+		"coords":"103.775212595807,1.43089355383674"
+		},
+		{
+		"name":"Thomson Medical Centre",
+		"zipcode":"307677",
+		"building":"THOMSON MEDICAL CENTRE",
+		"coords":"103.841448130193,1.32536440372976"
+		},
+		{
+		"name":"Guardian Pharmacy Departure Transit Lounge East",
+		"zipcode":"819642",
+		"building":"CHANGI AIRPORT TERMINAL 1",
+		"coords":"103.989706929027,1.36249133852758"
+		},
+		{
+		"name":"P  L Pharmacy Pte Ltd",
+		"zipcode":"247909",
+		"building":"TANGLIN SHOPPING CENTRE",
+		"coords":"103.82703619728,1.30637308895525"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd IMM",
+		"zipcode":"609601",
+		"building":"IMM BUILDING",
+		"coords":"103.746876815817,1.33491791550897"
+		},
+		{
+		"name":"National University Hosital  Kent Ridge Wing Pharmacy",
+		"zipcode":"119074",
+		"building":"NATIONAL UNIVERSITY HOSPITAL",
+		"coords":"103.782329899263,1.29419457537098"
+		},
+		{
+		"name":"Specialist Compounding Pharmacy Pte Ltd",
+		"zipcode":"138668",
+		"building":"CENTROS",
+		"coords":"103.791792331833,1.30381649176116"
+		},
+		{
+		"name":"VERTEX PHARMACY PTE LTD",
+		"zipcode":"328201",
+		"building":"",
+		"coords":"103.865498987945,1.32428135435123"
+		},
+		{
+		"name":"Guardian Pharmacy Plaza Singapura",
+		"zipcode":"238839",
+		"building":"PLAZA SINGAPURA",
+		"coords":"103.844991260795,1.30011778934688"
+		},
+		{
+		"name":"PARKWAY EAST HOSPITAL PHARMACY",
+		"zipcode":"427990",
+		"building":"PARKWAY EAST HOSPITAL",
+		"coords":"103.908756542078,1.31508857100488"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Clementi Mall",
+		"zipcode":"129588",
+		"building":"",
+		"coords":"103.764422736987,1.31489653159905"
+		},
+		{
+		"name":"NTUC Healthcare TBR",
+		"zipcode":"168732",
+		"building":"TIONG BAHRU PLAZA",
+		"coords":"103.826934761736,1.28646378833044"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Bedok Mall",
+		"zipcode":"467360",
+		"building":"BEDOK MALL",
+		"coords":"103.929267336622,1.32477241506882"
+		},
+		{
+		"name":"SINGHEALTH POLY  PASIR RIS",
+		"zipcode":"519457",
+		"building":"",
+		"coords":"103.959197676837,1.36858736639209"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Resort World Sentosa",
+		"zipcode":"98138",
+		"building":"RESORTS WORLD SENTOSA",
+		"coords":"103.819812114853,1.25644560042472"
+		},
+		{
+		"name":"ST LUKES HOSPITAL BLOCK A",
+		"zipcode":"659674",
+		"building":"",
+		"coords":"103.741877300491,1.34953640056202"
+		},
+		{
+		"name":"Tan Tock Seng Hospital Outpatient  Retail Pharmacy",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"Mount Elizabeth Novena Hospital Pharmacy",
+		"zipcode":"329563",
+		"building":"",
+		"coords":"103.844225937607,1.32214688437163"
+		},
+		{
+		"name":"NTUC Healthcare The Living Pharmacy AMK",
+		"zipcode":"569933",
+		"building":"",
+		"coords":"103.848398900443,1.36924925338849"
+		},
+		{
+		"name":"NTUC Healthcare HPT",
+		"zipcode":"538692",
+		"building":"HOUGANG 1",
+		"coords":"103.87944993035,1.37566760690912"
+		},
+		{
+		"name":"The Skin Pharmacy",
+		"zipcode":"449269",
+		"building":"PARKWAY PARADE",
+		"coords":"103.90511326612,1.30119164715155"
+		},
+		{
+		"name":"NTUC Healthcare BTP",
+		"zipcode":"588996",
+		"building":"BUKIT TIMAH PLAZA",
+		"coords":"103.778585107457,1.33863198069505"
+		},
+		{
+		"name":"NTUC Healthcare TMJ",
+		"zipcode":"610399",
+		"building":"",
+		"coords":"103.720267696275,1.33504236378522"
+		},
+		{
+		"name":"NHG Pharmacy Yishun",
+		"zipcode":"768796",
+		"building":"",
+		"coords":"103.838333092549,1.42653783930948"
+		},
+		{
+		"name":"NTUC Healthcare WSA",
+		"zipcode":"518457",
+		"building":"",
+		"coords":"103.949596282368,1.37237287934525"
+		},
+		{
+		"name":"Guardian Pharmacy Lakeside MRT Station",
+		"zipcode":"649845",
+		"building":"LAKESIDE MRT STATION",
+		"coords":"103.720301539331,1.34410510559487"
+		},
+		{
+		"name":"Guardian Pharmacy Clifford Centre 2",
+		"zipcode":"48621",
+		"building":"CLIFFORD CENTRE",
+		"coords":"103.852127854014,1.28385731918358"
+		},
+		{
+		"name":"Guardian Pharmacy Balestier Medical Center",
+		"zipcode":"329784",
+		"building":"",
+		"coords":"103.85055313936,1.32440588234446"
+		},
+		{
+		"name":"Singapore General Hospital Pharmacy",
+		"zipcode":"169608",
+		"building":"SINGAPORE GENERAL HOSPITAL",
+		"coords":"103.833999070567,1.2785425977602"
+		},
+		{
+		"name":"Tan Tock Seng Hospital Pharmacy Level 2",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"NTUC Healthcare  The Living Pharmacy TMA",
+		"zipcode":"247933",
+		"building":"TANGLIN MALL",
+		"coords":"103.823852470346,1.3048437827306"
+		},
+		{
+		"name":"Guardian Pharmacy Centrepoint Basement",
+		"zipcode":"238843",
+		"building":"CENTREPOINT",
+		"coords":"103.839758579455,1.30197838049518"
+		},
+		{
+		"name":"Guardian Pharmacy Bukit Timah Plaza",
+		"zipcode":"588996",
+		"building":"BUKIT TIMAH PLAZA",
+		"coords":"103.778585107457,1.33863198069505"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy Jurong",
+		"zipcode":"609788",
+		"building":"",
+		"coords":"103.730717541881,1.34972012788934"
+		},
+		{
+		"name":"National Addiction Management Services NAMS Clinic Pharmacy",
+		"zipcode":"539747",
+		"building":"INSTITUTE OF MENTAL HEALTH",
+		"coords":"103.883348477178,1.38158988855886"
+		},
+		{
+		"name":"NTUC Healthcare PSG",
+		"zipcode":"238839",
+		"building":"PLAZA SINGAPURA",
+		"coords":"103.844991260795,1.30011778934688"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd United Square",
+		"zipcode":"307591",
+		"building":"UNITED SQUARE",
+		"coords":"103.843462852645,1.31733496953892"
+		},
+		{
+		"name":"NTUC Healthcare BMC",
+		"zipcode":"150166",
+		"building":"",
+		"coords":"103.817611320551,1.28306745239233"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Hougang Mall",
+		"zipcode":"538766",
+		"building":"HOUGANG MALL",
+		"coords":"103.893661284097,1.37231220423245"
+		},
+		{
+		"name":"NTUC Healthcare  The Living Pharmacy LT1",
+		"zipcode":"689812",
+		"building":"",
+		"coords":"103.744950057105,1.38506869181735"
+		},
+		{
+		"name":"Guardian Pharmacy Takashimaya S C ",
+		"zipcode":"238872",
+		"building":"NGEE ANN CITY",
+		"coords":"103.834675802225,1.30242451333319"
+		},
+		{
+		"name":"National Heart Centre Singapore",
+		"zipcode":"169609",
+		"building":"NATIONAL HEART CENTRE OF SINGAPORE",
+		"coords":"103.835954097748,1.27863294346406"
+		},
+		{
+		"name":"Guardian Pharmacy Jurong Point 2",
+		"zipcode":"648331",
+		"building":"JURONG POINT",
+		"coords":"103.705367386894,1.33939777185501"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Jurong Point",
+		"zipcode":"648886",
+		"building":"JURONG POINT",
+		"coords":"103.706460564258,1.33983049043501"
+		},
+		{
+		"name":"NTUC Healthcare JRP",
+		"zipcode":"648886",
+		"building":"JURONG POINT",
+		"coords":"103.706460564258,1.33983049043501"
+		},
+		{
+		"name":"NTUC Healthcare HLC",
+		"zipcode":"538766",
+		"building":"NTUC HOUGANG MALL",
+		"coords":"103.893661284097,1.37231220423245"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd NEX",
+		"zipcode":"556083",
+		"building":"NEX",
+		"coords":"103.871861295858,1.35067585119019"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd JEM",
+		"zipcode":"608549",
+		"building":"JEM",
+		"coords":"103.743284221184,1.33322926688484"
+		},
+		{
+		"name":"GRACE HEALTHCARE",
+		"zipcode":"650634",
+		"building":"",
+		"coords":"103.751530954917,1.34973995340417"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Ngee Ann City",
+		"zipcode":"238872",
+		"building":"NGEE ANN CITY",
+		"coords":"103.834675802225,1.30242451333319"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Parkway Parade",
+		"zipcode":"449269",
+		"building":"PARKWAY PARADE",
+		"coords":"103.90511326612,1.30119164715155"
+		},
+		{
+		"name":"NTUC Healthcare BDK",
+		"zipcode":"460212",
+		"building":"",
+		"coords":"103.931546376699,1.32597857491424"
+		},
+		{
+		"name":"NTUC Healthcare NMA",
+		"zipcode":"556083",
+		"building":"NEX",
+		"coords":"103.871861295858,1.35067585119019"
+		},
+		{
+		"name":"Guardian Pharmacy Paragon",
+		"zipcode":"238859",
+		"building":"PARAGON",
+		"coords":"103.835239985778,1.30372355519846"
+		},
+		{
+		"name":"CGH Pharmacy A",
+		"zipcode":"529889",
+		"building":"CHANGI GENERAL HOSPITAL",
+		"coords":"103.949294057674,1.34068507849618"
+		},
+		{
+		"name":"Pharmacy Services Centre",
+		"zipcode":"539747",
+		"building":"INSTITUTE OF MENTAL HEALTH",
+		"coords":"103.883348477178,1.38158988855886"
+		},
+		{
+		"name":"Guardian Pharmacy Changi City Point",
+		"zipcode":"486038",
+		"building":"CHANGI CITY",
+		"coords":"103.962388984256,1.33432548753349"
+		},
+		{
+		"name":"Watsons Personal Care Store Pte Ltd Lucky Plaza",
+		"zipcode":"238863",
+		"building":"LUCKY PLAZA",
+		"coords":"103.833844256856,1.30455070598159"
+		},
+		{
+		"name":"Guardian Pharmacy Toa Payoh Blk 190",
+		"zipcode":"310190",
+		"building":"",
+		"coords":"103.847965104468,1.33297594708938"
+		},
+		{
+		"name":"Raffles Hospital Inpatient Pharmacy",
+		"zipcode":"188770",
+		"building":"RAFFLES HOSPITAL",
+		"coords":"103.857243398006,1.30114364006404"
+		},
+		{
+		"name":"Guardian Pharmacy Holland Shopping Centre",
+		"zipcode":"278967",
+		"building":"HOLLAND RD SHOPPING CENTRE",
+		"coords":"103.795350116615,1.31025575324034"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Bugis Junction",
+		"zipcode":"188021",
+		"building":"",
+		"coords":"103.85532763195,1.29906832050538"
+		},
+		{
+		"name":"Guardian Pharmacy Lavender MRT Station",
+		"zipcode":"208699",
+		"building":"LAVENDER MRT STATION",
+		"coords":"103.862767317324,1.30737784163228"
+		},
+		{
+		"name":"Guardian Pharmacy Causeway Point",
+		"zipcode":"738099",
+		"building":"CAUSEWAY POINT",
+		"coords":"103.785624160615,1.43614826938552"
+		},
+		{
+		"name":"Customized Health Solutions Pte Ltd",
+		"zipcode":"238859",
+		"building":"PARAGON THE",
+		"coords":"103.835239985778,1.30372355519846"
+		},
+		{
+		"name":"CGH Pharmacy B",
+		"zipcode":"529889",
+		"building":"CHANGI GENERAL HOSPITAL",
+		"coords":"103.949294057674,1.34068507849618"
+		},
+		{
+		"name":"Guardian Pharmacy Chinatown Point 4",
+		"zipcode":"59413",
+		"building":"CHINATOWN POINT",
+		"coords":"103.844696761947,1.28499916466521"
+		},
+		{
+		"name":"Guardian Pharmacy Gleneagles",
+		"zipcode":"258499",
+		"building":"GLENEAGLES MEDICAL CENTRE",
+		"coords":"103.820073903552,1.30757935129711"
+		},
+		{
+		"name":"Healing Hub  Ang Mo Kio  Thye Hua Kwan Hospital",
+		"zipcode":"569766",
+		"building":"",
+		"coords":"103.840171789725,1.38427949639593"
+		},
+		{
+		"name":"The Skin Pharmacy Jem",
+		"zipcode":"608549",
+		"building":"JEM",
+		"coords":"103.743284221184,1.33322926688484"
+		},
+		{
+		"name":"Guardian Pharmacy Mount Elizabeth",
+		"zipcode":"228510",
+		"building":"MOUNT ELIZABETH MEDICAL CENTRE",
+		"coords":"103.835439022178,1.30516555652557"
+		},
+		{
+		"name":"TAN TOCK SENG HOSPITAL PTE LTD EMERGENCY PHARMACY",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"NTUC Healthcare TPM",
+		"zipcode":"529510",
+		"building":"TAMPINES MALL",
+		"coords":"103.944257972045,1.35270013336519"
+		},
+		{
+		"name":"Guardian Pharmacy H205",
+		"zipcode":"530205",
+		"building":"HEARTLAND MALL KOVAN",
+		"coords":"103.885079596304,1.35949698791752"
+		},
+		{
+		"name":"Amber Compounding Pharmacy",
+		"zipcode":"239924",
+		"building":"SINGAPORE SHOPPING CENTRE",
+		"coords":"103.844111002707,1.29815299294276"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy FMCAng Mo Kio",
+		"zipcode":"569841",
+		"building":"BROADWAY PLAZA",
+		"coords":"103.845953749775,1.37193902596801"
+		},
+		{
+		"name":"Alps Pharmacy",
+		"zipcode":"498787",
+		"building":"LIAN SOON AMENITY CENTRE",
+		"coords":"104.00290646479,1.37602367656143"
+		},
+		{
+		"name":"NTUC Healthcare TPG",
+		"zipcode":"81005",
+		"building":"",
+		"coords":"103.843005330506,1.27623841678563"
+		},
+		{
+		"name":"NHG Pharmacy Bukit Batok Polyclinic",
+		"zipcode":"659164",
+		"building":"",
+		"coords":"103.74782194492,1.35201550000637"
+		},
+		{
+		"name":"The Japanese Association Clinic Singapore",
+		"zipcode":"289899",
+		"building":"JAPANESE CLUB",
+		"coords":"103.815929333131,1.3306623474349"
+		},
+		{
+		"name":"Johns Hopkins Singapore International Medical Centre Pte Ltd Inpatient Pharmacy",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"Alexandra Hospital Outpatient Pharmacy",
+		"zipcode":"159964",
+		"building":"ALEXANDRA HOSPITAL",
+		"coords":"103.79944452365,1.28812254203599"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Changi Airport T1 Check In Hall",
+		"zipcode":"819658",
+		"building":"",
+		"coords":"103.986009098431,1.34858681354695"
+		},
+		{
+		"name":"Retail Pharmacy",
+		"zipcode":"169608",
+		"building":"SINGAPORE GENERAL HOSPITAL",
+		"coords":"103.833999070567,1.2785425977602"
+		},
+		{
+		"name":"Guardian Pharmacy Funan IT Mall",
+		"zipcode":"179097",
+		"building":"FUNAN",
+		"coords":"103.84996140531,1.29142741434113"
+		},
+		{
+		"name":"Guardian Pharmacy Admiralty",
+		"zipcode":"731678",
+		"building":"MULTI STOREY CAR PARK",
+		"coords":"103.801537039659,1.44036400373"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Ion Orchard",
+		"zipcode":"238801",
+		"building":"ION ORCHARD",
+		"coords":"103.83139481286,1.30403611991906"
+		},
+		{
+		"name":"The Skin Pharmacy",
+		"zipcode":"556083",
+		"building":"NEX",
+		"coords":"103.871861295858,1.35067585119019"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Great World City",
+		"zipcode":"237994",
+		"building":"GREAT WORLD CITY",
+		"coords":"103.831757588454,1.29380268611036"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Raffles City",
+		"zipcode":"179103",
+		"building":"RAFFLES CITY SHOPPING CENTRE",
+		"coords":"103.852768001751,1.29376061751501"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Terminal 1 Transit",
+		"zipcode":"819642",
+		"building":"CHANGI AIRPORT TERMINAL 1",
+		"coords":"103.989706929027,1.36249133852758"
+		},
+		{
+		"name":"Guardian Pharmacy Tampines Mall",
+		"zipcode":"529510",
+		"building":"TAMPINES MALL",
+		"coords":"103.944257972045,1.35270013336519"
+		},
+		{
+		"name":"AM Pharmacy Pte Ltd",
+		"zipcode":"238841",
+		"building":"ORCHARD PLAZA",
+		"coords":"103.841149823408,1.30125763036612"
+		},
+		{
+		"name":"WESTMEAD PHARMACY PTE LTD",
+		"zipcode":"498787",
+		"building":"LIAN SOON AMENITY CENTRE",
+		"coords":"104.00290646479,1.37602367656143"
+		},
+		{
+		"name":"MEDILINK PHARMACY",
+		"zipcode":"200803",
+		"building":"",
+		"coords":"103.860887538065,1.3082949512473"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Novena Square",
+		"zipcode":"307683",
+		"building":"NOVENA SQUARE",
+		"coords":"103.843850315364,1.31996782122256"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Vivocity",
+		"zipcode":"98585",
+		"building":"",
+		"coords":"103.821808296959,1.26439502238105"
+		},
+		{
+		"name":"TAN TOCK SENG HOSPITAL PTE LTD MAIN PHARMACY",
+		"zipcode":"308433",
+		"building":"",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"Jurong Medical Centre Pharmacy",
+		"zipcode":"648346",
+		"building":"",
+		"coords":"103.70445235465,1.34046989474486"
+		},
+		{
+		"name":"Guardian Pharmacy Ang Mo Kio 3",
+		"zipcode":"560704",
+		"building":"",
+		"coords":"103.847230399347,1.37040744905139"
+		},
+		{
+		"name":"Guardian Pharmacy Tampines MRT",
+		"zipcode":"529538",
+		"building":"TAMPINES MRT STATION",
+		"coords":"103.944837974355,1.35364691195227"
+		},
+		{
+		"name":"Guardian Pharmacy Vivo City",
+		"zipcode":"98585",
+		"building":"",
+		"coords":"103.821808296959,1.26439502238105"
+		},
+		{
+		"name":"TTSH Outpatient Pharmacy Temporary",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"NTUC Healthcare ESP",
+		"zipcode":"528578",
+		"building":"",
+		"coords":"103.952675891107,1.34333706297341"
+		},
+		{
+		"name":"KK Womens  Childrens Hospital Main Pharmacy",
+		"zipcode":"229899",
+		"building":"KK WOMENS AND CHILDRENS HOSPITAL",
+		"coords":"103.84664975342,1.31044886495468"
+		},
+		{
+		"name":"Guardian Pharmacy JEM",
+		"zipcode":"608549",
+		"building":"JEM",
+		"coords":"103.743284221184,1.33322926688484"
+		},
+		{
+		"name":"CHANGI GENERAL HOSPITAL PTE LTD BASEMENT PHARMACY",
+		"zipcode":"529889",
+		"building":"",
+		"coords":"103.949294057674,1.34068507849618"
+		},
+		{
+		"name":"ALCHEMY PHARMACY",
+		"zipcode":"510258",
+		"building":"LOYANG POINT",
+		"coords":"103.964635292333,1.367066674271"
+		},
+		{
+		"name":"NISHINO PHARMACY SHAW HOUSE",
+		"zipcode":"238868",
+		"building":"SHAW HOUSE",
+		"coords":"103.831476991722,1.30580651530134"
+		},
+		{
+		"name":"NATIONAL CANCER CENTRE PHARMACY LEVEL 1",
+		"zipcode":"169610",
+		"building":"",
+		"coords":"103.836531236401,1.27929123638448"
+		},
+		{
+		"name":"NATIONAL CANCER CENTRE PHARMACY LEVEL 3",
+		"zipcode":"169610",
+		"building":"",
+		"coords":"103.836531236401,1.27929123638448"
+		},
+		{
+		"name":"WESTPOINT FAMILY HOSPITAL PTE LTD",
+		"zipcode":"619771",
+		"building":"WESTPOINT FAMILY HOSPITAL",
+		"coords":"103.722829093813,1.33102469698275"
+		},
+		{
+		"name":"MOHAMED MUSTAFA  SAMSUDDIN CO  PTE LTD MUSTAFA CENTRE",
+		"zipcode":"207704",
+		"building":"MUSTAFA CENTRE",
+		"coords":"103.855290505481,1.31011250759238"
+		},
+		{
+		"name":"COMMUNITY PHARMACY",
+		"zipcode":"588996",
+		"building":"BUKIT TIMAH PLAZA",
+		"coords":"103.778585107457,1.33863198069505"
+		},
+		{
+		"name":"NATIONAL UNIVERSITY HOSPITAL S PTE LTD  RETAIL PHARMACY",
+		"zipcode":"119074",
+		"building":"MAIN BLOCK",
+		"coords":"103.782329899263,1.29419457537098"
+		},
+		{
+		"name":"NATIONAL SKIN CENTRE S PTE LTD PHARMACY",
+		"zipcode":"308205",
+		"building":"",
+		"coords":"103.849089404344,1.31955159844134"
+		},
+		{
+		"name":"TONG KENG HONG DRUG STORE",
+		"zipcode":"49317",
+		"building":"THE ARCADE",
+		"coords":"103.852058542562,1.28362016086048"
+		},
+		{
+		"name":"SINGAPORE NATIONAL EYE CENTRE PTE LTD",
+		"zipcode":"168751",
+		"building":"",
+		"coords":"103.835809057239,1.28104820032116"
+		},
+		{
+		"name":"NATIONAL SKIN CENTRE S PTE LTD DSC CLINIC PHARMACY",
+		"zipcode":"200031",
+		"building":"",
+		"coords":"103.856826467786,1.30630402585218"
+		},
+		{
+		"name":"NATIONAL UNIVERSITY HOSPITAL S PTE LTD  HOSPITAL PHARMACY",
+		"zipcode":"119074",
+		"building":"",
+		"coords":"103.782329899263,1.29419457537098"
+		},
+		{
+		"name":"ORCHARD PHARMACY PTE LTD",
+		"zipcode":"238875",
+		"building":"ORCHARD TOWERS",
+		"coords":"103.829073283923,1.30689746836269"
+		},
+		{
+		"name":"TAN TOCK SENG HOSPITAL PTE LTD CDC PHARMACY",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"GLENEAGLES HOSPITAL",
+		"zipcode":"258500",
+		"building":"GLENEAGLES HOSPITAL",
+		"coords":"103.819596817757,1.30743409327152"
+		},
+		{
+		"name":"Mount Elizabeth Hospital",
+		"zipcode":"228510",
+		"building":"MOUNT ELIZABETH HOSPITAL",
+		"coords":"103.835439022178,1.30516555652557"
+		},
+		{
+		"name":"PRINCETON PHARMACY S PTE LTD",
+		"zipcode":"129808",
+		"building":"",
+		"coords":"103.763539229828,1.32518173537887"
+		},
+		{
+		"name":"Pharmaplus Pte Ltd",
+		"zipcode":"248649",
+		"building":"CAMDEN CENTRE",
+		"coords":"103.823936718969,1.3031516686481"
+		},
+		{
+		"name":"KK Outpatient Pharmacy",
+		"zipcode":"229899",
+		"building":"KK WOMENS AND CHILDRENS HOSPITAL",
+		"coords":"103.84664975342,1.31044886495468"
+		},
+		{
+		"name":"SINGHEALTH POLYBEDOK",
+		"zipcode":"460212",
+		"building":"",
+		"coords":"103.931546376699,1.32597857491424"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy Clementi",
+		"zipcode":"120451",
+		"building":"",
+		"coords":"103.765476738007,1.31248115616556"
+		},
+		{
+		"name":"KK Emergency Pharmacy",
+		"zipcode":"229899",
+		"building":"KK WOMENS AND CHILDRENS HOSPITAL",
+		"coords":"103.84664975342,1.31044886495468"
+		},
+		{
+		"name":"Essentials Pharmacy",
+		"zipcode":"58357",
+		"building":"PEOPLES PARK CENTRE",
+		"coords":"103.84385167928,1.28549561037197"
+		},
+		{
+		"name":"Nishino Pharmaceutical Pte Ltd",
+		"zipcode":"238873",
+		"building":"TAKASHIMAYA SHOPPING CENTRE",
+		"coords":"103.834675802225,1.30242451333319"
+		},
+		{
+		"name":"Johns Hopkins Singapore International Medical Centre Pte Ltd",
+		"zipcode":"308433",
+		"building":"TAN TOCK SENG HOSPITAL",
+		"coords":"103.84538868903,1.32171631367975"
+		},
+		{
+		"name":"SMITH PHARMACY PTE LTD",
+		"zipcode":"310194",
+		"building":"KIM KEAT VIEW",
+		"coords":"103.858181590912,1.33093966995257"
+		},
+		{
+		"name":"NHG Pharmacy Hougang",
+		"zipcode":"538829",
+		"building":"",
+		"coords":"103.888996063454,1.37001837835345"
+		},
+		{
+		"name":"Guardian Pharmacy Serangoon Garden",
+		"zipcode":"555962",
+		"building":"",
+		"coords":"103.865452330239,1.36414354362596"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Compass Point",
+		"zipcode":"545078",
+		"building":"COMPASS POINT",
+		"coords":"103.894979702823,1.39209448261065"
+		},
+		{
+		"name":"Guardian Pharmacy Bukit Panjang Plaza",
+		"zipcode":"677743",
+		"building":"BUKIT PANJANG PLAZA",
+		"coords":"103.763993628179,1.38054278655805"
+		},
+		{
+		"name":"Clinic B Pharmacy",
+		"zipcode":"539747",
+		"building":"",
+		"coords":"103.883348477178,1.38158988855886"
+		},
+		{
+		"name":"Child Guidance Clinic Health Promotion Board",
+		"zipcode":"168937",
+		"building":"",
+		"coords":"103.838314726086,1.27933181147448"
+		},
+		{
+		"name":"ST ANDREWS COMMUNITY HOSPITAL PHARMACY",
+		"zipcode":"529895",
+		"building":"SAINT ANDREWS HOSPITAL",
+		"coords":"103.948759109312,1.34177666423261"
+		},
+		{
+		"name":"NATIONAL UNIVERSITY HOSPITALS PTE LTD MEDICAL CENTRE PHARMACY",
+		"zipcode":"119082",
+		"building":"NUH MEDICAL CENTRE",
+		"coords":"103.784083689543,1.2927746521532"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Toa Payoh HDB Hub",
+		"zipcode":"310190",
+		"building":"",
+		"coords":"103.847965104468,1.33297594708938"
+		},
+		{
+		"name":"Guardian Pharmacy West Mall",
+		"zipcode":"658713",
+		"building":"WEST MALL",
+		"coords":"103.749021661063,1.35018949225919"
+		},
+		{
+		"name":"National University Hospital s Pte Ltd Pharmacy  NCIS",
+		"zipcode":"119082",
+		"building":"NUH MEDICAL CENTRE",
+		"coords":"103.784083689543,1.2927746521532"
+		},
+		{
+		"name":"NTUC Healthcare MPR",
+		"zipcode":"449411",
+		"building":"",
+		"coords":"103.907176895995,1.30133780027006"
+		},
+		{
+		"name":"Guardian Pharmacy Departure Check In Hall North",
+		"zipcode":"819643",
+		"building":"CHANGI AIRPORT TERMINAL 2",
+		"coords":"103.988750656923,1.3551912728997"
+		},
+		{
+		"name":"NTUC Unity Healthcare TP2",
+		"zipcode":"319398",
+		"building":"TOA PAYOH MRT STATION",
+		"coords":"103.847420624989,1.33267904288528"
+		},
+		{
+		"name":"Guardian Pharmacy ION",
+		"zipcode":"238801",
+		"building":"ION ORCHARD",
+		"coords":"103.83139481286,1.30403611991906"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd International Plaza",
+		"zipcode":"79903",
+		"building":"INTERNATIONAL PLAZA",
+		"coords":"103.845702898735,1.27573601504818"
+		},
+		{
+		"name":"NTUC Unity Healthcare KWM Kallang Wave Mall",
+		"zipcode":"397628",
+		"building":"",
+		"coords":"103.8727503807,1.30384361092924"
+		},
+		{
+		"name":"MT ALVERNIA HOSPITAL RETAIL PHARMACY",
+		"zipcode":"574623",
+		"building":"MOUNT ALVERNIA HOSPITAL",
+		"coords":"103.83758105935,1.34180523834087"
+		},
+		{
+		"name":"NTUC Healthcare WCC",
+		"zipcode":"730900",
+		"building":"WOODLANDS CIVIC CENTRE",
+		"coords":"103.78661928863,1.43507823363976"
+		},
+		{
+		"name":"Guardian Pharmacy Compass Point",
+		"zipcode":"545078",
+		"building":"COMPASS POINT",
+		"coords":"103.894979702823,1.39209448261065"
+		},
+		{
+		"name":"Guardian Pharmacy United Square 2",
+		"zipcode":"307591",
+		"building":"UNITED SQUARE",
+		"coords":"103.843462852645,1.31733496953892"
+		},
+		{
+		"name":"Guardian Pharmacy Serangoon NEX",
+		"zipcode":"556083",
+		"building":"NEX",
+		"coords":"103.871861295858,1.35067585119019"
+		},
+		{
+		"name":"UNITY WSA White Sands",
+		"zipcode":"518457",
+		"building":"",
+		"coords":"103.949596282368,1.37237287934525"
+		},
+		{
+		"name":"Guardian Pharmacy Tampines Century Square 2",
+		"zipcode":"529509",
+		"building":"CENTURY SQUARE",
+		"coords":"103.943709412358,1.35240268198101"
+		},
+		{
+		"name":"Guardian Pharmacy Sport Hub Kallang Wave",
+		"zipcode":"397628",
+		"building":"",
+		"coords":"103.8727503807,1.30384361092924"
+		},
+		{
+		"name":"UNITY OKM OneKM",
+		"zipcode":"437157",
+		"building":"ONE KM",
+		"coords":"103.894480204435,1.31469246997186"
+		},
+		{
+		"name":"Guardian Pharmacy Jelita",
+		"zipcode":"278628",
+		"building":"COLD STORAGE JELITA",
+		"coords":"103.785840297662,1.31756230169075"
+		},
+		{
+		"name":"Guardian Pharmacy LOT 1",
+		"zipcode":"689812",
+		"building":"",
+		"coords":"103.744950057105,1.38506869181735"
+		},
+		{
+		"name":"Guardian Pharmacy Greenwich",
+		"zipcode":"807011",
+		"building":"GREENWICH THE",
+		"coords":"103.869135662143,1.38739572419669"
+		},
+		{
+		"name":"Guardian Pharmacy Harbourfront Centre",
+		"zipcode":"99253",
+		"building":"HARBOURFRONT CENTRE",
+		"coords":"103.819291653011,1.26451816995793"
+		},
+		{
+		"name":"Guardian Pharmacy Tiong Bahru Plaza",
+		"zipcode":"168732",
+		"building":"TIONG BAHRU PLAZA",
+		"coords":"103.826934761736,1.28646378833044"
+		},
+		{
+		"name":"Guardian Pharmacy Yew Tee MRT",
+		"zipcode":"689715",
+		"building":"YEW TEE MRT STATION",
+		"coords":"103.747329394838,1.39712919166821"
+		},
+		{
+		"name":"Guardian Pharmacy Thomson Plaza",
+		"zipcode":"574408",
+		"building":"THOMSON PLAZA",
+		"coords":"103.830838560919,1.3546531223482"
+		},
+		{
+		"name":"Guardian Pharmacy Hougang Mall",
+		"zipcode":"538766",
+		"building":"HOUGANG MALL",
+		"coords":"103.893661284097,1.37231220423245"
+		},
+		{
+		"name":"Amber Compounding Pharmacy Pte Ltd",
+		"zipcode":"58770",
+		"building":"",
+		"coords":"103.845873012083,1.28289707597265"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Holland Village",
+		"zipcode":"278967",
+		"building":"HOLLAND ROAD SHOPPING CENTRE",
+		"coords":"103.795350116615,1.31025575324034"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Marina Bay Financial Centre",
+		"zipcode":"18984",
+		"building":"MARINA BAY LINK MALL",
+		"coords":"103.853348973971,1.28022801764498"
+		},
+		{
+		"name":"Khoo Teck Puat Hospital Pharmacy",
+		"zipcode":"768828",
+		"building":"",
+		"coords":"103.837853339919,1.42387793347301"
+		},
+		{
+		"name":"Guardian Pharmacy Marina Bay Sands",
+		"zipcode":"18972",
+		"building":"MARINA BAY SANDS",
+		"coords":"103.857505722682,1.28334334578073"
+		},
+		{
+		"name":"Guardian Pharmacy 313  Somerset",
+		"zipcode":"238895",
+		"building":"313  SOMERSET",
+		"coords":"103.838246270336,1.30100690712208"
+		},
+		{
+		"name":"Guardian Pharmacy Star Vista",
+		"zipcode":"138617",
+		"building":"THE STAR",
+		"coords":"103.788214210577,1.306849160917"
+		},
+		{
+		"name":"Guardian Pharmacy Tanglin Mall",
+		"zipcode":"247933",
+		"building":"TANGLIN MALL",
+		"coords":"103.823852470346,1.3048437827306"
+		},
+		{
+		"name":"Guardian Pharmacy Pasir Ris Drive 6",
+		"zipcode":"510442",
+		"building":"",
+		"coords":"103.957951402799,1.36893321836015"
+		},
+		{
+		"name":"UNITY NTUC Healthcare WM1",
+		"zipcode":"658713",
+		"building":"WEST MALL",
+		"coords":"103.749021661063,1.35018949225919"
+		},
+		{
+		"name":"Guardian Pharmacy Raffles Place MRT 3",
+		"zipcode":"48618",
+		"building":"RAFFLES PLACE MRT STATION",
+		"coords":"103.851453080525,1.28422167460493"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Northpoint",
+		"zipcode":"769098",
+		"building":"NORTHPOINT",
+		"coords":"103.835776166949,1.42969881121852"
+		},
+		{
+		"name":"NTUC Healthcare  The Living Pharmacy TPO",
+		"zipcode":"529536",
+		"building":"TAMPINES ONE",
+		"coords":"103.945019135434,1.35431589319351"
+		},
+		{
+		"name":"Guardian Pharmacy Katong Mall",
+		"zipcode":"428802",
+		"building":"112 KATONG",
+		"coords":"103.905014611495,1.30523505719994"
+		},
+		{
+		"name":"Guardian Pharmacy Great World City",
+		"zipcode":"237994",
+		"building":"GREAT WORLD CITY",
+		"coords":"103.831757588454,1.29380268611036"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Changi Airport Terminal 3 Transit",
+		"zipcode":"819663",
+		"building":"CHANGI AIRPORT TERMINAL 3",
+		"coords":"103.985169321753,1.35437107041035"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Marina Bay Sands",
+		"zipcode":"18972",
+		"building":"MARINA BAY SANDS",
+		"coords":"103.857505722682,1.28334334578073"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd OneKentridge",
+		"zipcode":"119082",
+		"building":"NUH MEDICAL CENTRE",
+		"coords":"103.784083689543,1.2927746521532"
+		},
+		{
+		"name":"NTUC Healthcare  The Living Pharmacy TSP",
+		"zipcode":"574408",
+		"building":"THOMSON PLAZA",
+		"coords":"103.830838560919,1.3546531223482"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Changi Airport T3 Basement",
+		"zipcode":"819663",
+		"building":"CHANGI AIRPORT TERMINAL 3",
+		"coords":"103.985169321753,1.35437107041035"
+		},
+		{
+		"name":"Guardian Pharmacy Bedok Mall",
+		"zipcode":"467360",
+		"building":"BEDOK MALL",
+		"coords":"103.929267336622,1.32477241506882"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Causeway Point",
+		"zipcode":"738099",
+		"building":"CAUSEWAY POINT",
+		"coords":"103.785624160615,1.43614826938552"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Tampines Mall",
+		"zipcode":"529510",
+		"building":"TAMPINES MALL",
+		"coords":"103.944257972045,1.35270013336519"
+		},
+		{
+		"name":"SINGHEALTH POLY TAMPINES",
+		"zipcode":"529203",
+		"building":"",
+		"coords":"103.945849149518,1.35731028698537"
+		},
+		{
+		"name":"NTUC Healthcare PGP",
+		"zipcode":"820168",
+		"building":"",
+		"coords":"103.912890126693,1.39425662817758"
+		},
+		{
+		"name":"Guardian Pharmacy Suntec City",
+		"zipcode":"38983",
+		"building":"SUNTEC CITY MALL",
+		"coords":"103.857413655342,1.29469095895413"
+		},
+		{
+		"name":"NTUC Healthcare RVP",
+		"zipcode":"540118",
+		"building":"RIVERVALE PLAZA",
+		"coords":"103.901557703225,1.38493235004448"
+		},
+		{
+		"name":"Singhealth Poly  Bukit Merah",
+		"zipcode":"150163",
+		"building":"",
+		"coords":"103.816992086611,1.28369297959086"
+		},
+		{
+		"name":"SHP  Marine Parade",
+		"zipcode":"440080",
+		"building":"",
+		"coords":"103.907738475078,1.30248236847443"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy Ang Mo Kio",
+		"zipcode":"560723",
+		"building":"",
+		"coords":"103.847181705113,1.37231892627306"
+		},
+		{
+		"name":"National Healthcare Group Pharmacy Toa Payoh",
+		"zipcode":"319260",
+		"building":"",
+		"coords":"103.858956119873,1.33448061063789"
+		},
+		{
+		"name":"Guardian Pharmacy White Sands 2",
+		"zipcode":"518457",
+		"building":"",
+		"coords":"103.949596282368,1.37237287934525"
+		},
+		{
+		"name":"Guardian Pharmacy WRS",
+		"zipcode":"528765",
+		"building":"",
+		"coords":"103.9320059684,1.37210150662274"
+		},
+		{
+		"name":"Guardian Pharmacy Raffles City",
+		"zipcode":"179103",
+		"building":"RAFFLES CITY SHOPPING CENTRE",
+		"coords":"103.852768001751,1.29376061751501"
+		},
+		{
+		"name":"NTUC Healthcare BPP",
+		"zipcode":"677743",
+		"building":"BUKIT PANJANG PLAZA",
+		"coords":"103.763993628179,1.38054278655805"
+		},
+		{
+		"name":"NTUC Healthcare CMA",
+		"zipcode":"129588",
+		"building":"THE CLEMENTI MALL",
+		"coords":"103.764422736987,1.31489653159905"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Tiong Bahru Plaza",
+		"zipcode":"168732",
+		"building":"TIONG BAHRU PLAZA",
+		"coords":"103.826934761736,1.28646378833044"
+		},
+		{
+		"name":"Singhealth Poly  Sengkang",
+		"zipcode":"545025",
+		"building":"",
+		"coords":"103.893905781131,1.39278592462896"
+		},
+		{
+		"name":"SINGHEALTH POLYQUEENSTOWN",
+		"zipcode":"148958",
+		"building":"",
+		"coords":"103.800957472969,1.29847581127783"
+		},
+		{
+		"name":"NTUC UNITY Healthcare AM3 AMK MRT Station",
+		"zipcode":"569811",
+		"building":"",
+		"coords":"103.849454903935,1.36942888125276"
+		},
+		{
+		"name":"Pacific Truste Pharmacy",
+		"zipcode":"600326",
+		"building":"",
+		"coords":"103.729608955968,1.34902214840669"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Bukit Panjang Plaza",
+		"zipcode":"677743",
+		"building":"BUKIT PANJANG PLAZA",
+		"coords":"103.763993628179,1.38054278655805"
+		},
+		{
+		"name":"Guardian Pharmacy Kallang Leisure Park 2",
+		"zipcode":"397693",
+		"building":"LEISURE PARK KALLANG",
+		"coords":"103.876152341562,1.30222210629062"
+		},
+		{
+		"name":"jw compounding pharmacy pte ltd",
+		"zipcode":"82001",
+		"building":"",
+		"coords":"103.842392842531,1.27559653333653"
+		},
+		{
+		"name":"NTUC Healthcare YSH",
+		"zipcode":"760849",
+		"building":"",
+		"coords":"103.835217853511,1.4169835009063"
+		},
+		{
+		"name":"Guardian Pharmacy Amara Hotel",
+		"zipcode":"79027",
+		"building":"100 AM",
+		"coords":"103.843470417417,1.27458855394478"
+		},
+		{
+		"name":"Guardian Pharmacy Departure Lounge South T2",
+		"zipcode":"819643",
+		"building":"CHANGI AIRPORT TERMINAL 2",
+		"coords":"103.988750656923,1.3551912728997"
+		},
+		{
+		"name":"Guardian Pharmacy Northpoint",
+		"zipcode":"769098",
+		"building":"NORTHPOINT",
+		"coords":"103.835776166949,1.42969881121852"
+		},
+		{
+		"name":"Guardian Pharmacy Orchard Towers",
+		"zipcode":"229594",
+		"building":"ORCHARD TOWERS",
+		"coords":"103.829351871224,1.30756270777481"
+		},
+		{
+		"name":"The Dental Pharm",
+		"zipcode":"168938",
+		"building":"",
+		"coords":"103.838232160262,1.27975936282349"
+		},
+		{
+		"name":"Guardian Pharmacy Novena Square",
+		"zipcode":"307683",
+		"building":"NOVENA SQUARE",
+		"coords":"103.843850315364,1.31996782122256"
+		},
+		{
+		"name":"NTUC Healthcare HBF",
+		"zipcode":"99253",
+		"building":"HARBOURFRONT CENTRE",
+		"coords":"103.819291653011,1.26451816995793"
+		},
+		{
+		"name":"Guardian Pharmacy Zhongsan Park",
+		"zipcode":"329984",
+		"building":"",
+		"coords":"103.846476140438,1.3270851970063"
+		},
+		{
+		"name":"SINGHEALTH POLYOUTRAM",
+		"zipcode":"168937",
+		"building":"HEALTH PROMOTION BOARD",
+		"coords":"103.838314726086,1.27933181147448"
+		},
+		{
+		"name":"Singhealth Poly  Geylang",
+		"zipcode":"389707",
+		"building":"GEYLANG POLYCLINIC",
+		"coords":"103.887165721374,1.31949398898561"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Paragon",
+		"zipcode":"238859",
+		"building":"PARAGON THE",
+		"coords":"103.835239985778,1.30372355519846"
+		},
+		{
+		"name":"NTUC Healthcare JCU",
+		"zipcode":"609731",
+		"building":"JCUBE",
+		"coords":"103.740186751286,1.33332344798754"
+		},
+		{
+		"name":"NTUC Healthcare WGA Westgate",
+		"zipcode":"608532",
+		"building":"WESTGATE",
+		"coords":"103.742762943095,1.33415833003062"
+		},
+		{
+		"name":"Guardian Pharmacy Parkway Parade",
+		"zipcode":"449269",
+		"building":"PARKWAY PARADE",
+		"coords":"103.90511326612,1.30119164715155"
+		},
+		{
+		"name":"Mount Alvernia Hospital Main Pharmacy",
+		"zipcode":"574623",
+		"building":"MOUNT ALVERNIA HOSPITAL",
+		"coords":"103.83758105935,1.34180523834087"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd West Mall",
+		"zipcode":"658713",
+		"building":"WEST MALL",
+		"coords":"103.749021661063,1.35018949225919"
+		},
+		{
+		"name":"NTUC Healthcare VPT Vista Point",
+		"zipcode":"730548",
+		"building":"VISTA POINT",
+		"coords":"103.793804561469,1.43044394519293"
+		},
+		{
+		"name":"NTUC Healthcare JEM",
+		"zipcode":"608549",
+		"building":"JEM",
+		"coords":"103.743284221184,1.33322926688484"
+		},
+		{
+		"name":"Watsons Personal Care Stores Pte Ltd Changi Airport T3 Check in Hall",
+		"zipcode":"819663",
+		"building":"CHANGI AIRPORT TERMINAL 3",
+		"coords":"103.985169321753,1.35437107041035"
+		},
+		{
+		"name":"Guardian Pharmacy City Link",
+		"zipcode":"39393",
+		"building":"",
+		"coords":"103.854173177133,1.29277807092155"
+		},
+		{
+		"name":"Guardian Pharmacy Bedok Central",
+		"zipcode":"460210",
+		"building":"",
+		"coords":"103.931818851851,1.32460738922308"
+		},
+		{
+		"name":"Guardian Pharmacy Bugis Junction 3",
+		"zipcode":"188021",
+		"building":"BUGIS JUNCTION",
+		"coords":"103.85532763195,1.29906832050538"
+		},
+		{
+		"name":"Guardian Pharmacy Bishan Place",
+		"zipcode":"579837",
+		"building":"JUNCTION 8 SHOPPING CENTRE",
+		"coords":"103.848477304423,1.35023975791721"
+		},
+		{
+		"name":"Guardian Pharmacy Bugis MRT",
+		"zipcode":"188022",
+		"building":"BUGIS MRT",
+		"coords":"103.855614439009,1.30026502765785"
+		},
+		{
+		"name":"Guardian Pharmacy Clementi Mall",
+		"zipcode":"129588",
+		"building":"",
+		"coords":"103.764422736987,1.31489653159905"
+		},
+		{
+		"name":"NTUC Healthcare BSH",
+		"zipcode":"570510",
+		"building":"",
+		"coords":"103.84969191187,1.3488888122622"
+		}
+	]
+}

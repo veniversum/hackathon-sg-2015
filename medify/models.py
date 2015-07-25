@@ -27,8 +27,8 @@ class IllegalMedication(models.Model):
 	manufacturer = models.CharField(max_length=200,blank=True)
 	remarks = models.TextField(blank=True)
 	
-	
-
-	
-	
-	
+class Pharmacy(models.Model):
+    pharmacy_name = models.CharField(max_length=100)
+    zipcode = models.IntegerField
+    building = models.CharField(max_length=50)
+    coords = models.CharField(max_length=50)
