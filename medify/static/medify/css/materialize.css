@@ -1774,6 +1774,11 @@ sub {
  */
 img {
   border: 0; }
+   img#main-logo {
+        max-height: 48px;
+        vertical-align: text-bottom;
+        margin-bottom: -5px;
+    }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
