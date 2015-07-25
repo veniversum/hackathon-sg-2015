@@ -1,0 +1,32 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link type="text/css" rel="stylesheet" href="{% static 'medify/css/materialize.css' %}"i/>
+        {% block css %}{% endblock %}
+    </head>
+
+    <body>
+        <script type="text/javascript" src="{% static 'medify/js/jquery-2.1.4.js' %}"></script>
+        <script type="text/javascript" src="{% static 'medify/js/materialize.js' %}"></script>
+        {% block js %}{% endblock %}
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="{% url 'index' %}" class="brand-logo">Medify</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="{% url 'index' %}">Search</a></li>
+                        <li><a href="{% url 'pharmacies' %}">Pharmacies</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="content" class="container">
+            {% block content %}
+            <h1>No content!</h1>
+            {% endblock %}
+        </div>
+    </body>
+</html>
