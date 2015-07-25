@@ -5562,7 +5562,9 @@ small {
     .card.small .card-image {
       height: 150px; }
     .card.small .card-content {
-      height: 150px; }
+      height: 90%;
+      overflow-y: auto;
+    }
   .card.medium {
     height: 400px; }
     .card.medium .card-image {
@@ -5595,9 +5597,12 @@ small {
     border-radius: 0 0 2px 2px; }
     .card .card-content p {
       margin: 0;
-      color: inherit; }
+      color: inherit; 
+      padding-bottom: 4px; }
     .card .card-content .card-title {
-      line-height: 48px; }
+      line-height: 30px; }
+    .card .card-content .card-title p {
+      padding-bottom: 12px; }
   .card .card-action {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px; }
