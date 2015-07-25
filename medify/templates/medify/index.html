@@ -6,15 +6,62 @@
 {% endblock %}
 
 {% block content %}
-<div class="row">
-    <form class="col s12">
+    <ul class="collapsible" data-collapsible="accordion">
+    <li>
         <div class="row">
+        <form class="container">
             <div class="input-field">
                 <i class="material-icons prefix">search</i>
                 <input id="product_name" type="text">
-                <label for="product_name">Product Name</label>
+                <label for="product_name">Product Name / Manufacturer / Active Ingredient</label>
             </div>
+        </form>
+            </div>
+    </li>
+    <li>
+        <div class="collapsible-header">
+            <span class="card-title grey-text text-darken-4">Advanced Search<i class="material-icons right">settings</i></span>
         </div>
-    </form>
-</div>
+        <div class="collapsible-body container row">
+            <div class="col s10">
+            <div class="row">
+                <div class="input-field col s4">
+                    <input id="product_name_advanced" type="text">
+                    <label for="product_name_advanced">Product Name</label>
+                </div> 
+                <div class="input-field col s4">
+                    <input id="manufacturer_advanced" type="text">
+                    <label for="manufacturer_advanced">Manufacturer</label>
+                </div>  
+                <div class="input-field col s4">
+                    <input id="active_ingredient_advanced" type="text">
+                    <label for="active_ingredient_advanced">Active Ingredients</label>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="input-field col s4">
+                    <div class="select-wrapper"><select>
+                          <option value="" disabled selected>Choose your option</option>
+                          <option value="general">General Sale List</option>
+                          <option value="pharmacy">Pharmacy Only</option>
+                          <option value="prescription">Prescription Only</option>
+                    </select></div>
+
+                    <label>Forensic Classification</label>
+                </div>
+                <div class="input-field col s4">
+                    <input id="" type="text">
+                    <label for=""></label>
+                </div>
+
+                <div class="input-field col s4">
+                    <input id="" type="text">
+                    <label for=""></label>
+                </div>
+                </div>
+        </div>
+    </div>
+    </li>
+    </ul>
+  </div>      
 {% endblock %}

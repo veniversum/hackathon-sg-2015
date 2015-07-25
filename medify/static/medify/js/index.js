@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('select').material_select();
 	var typingTimer;
 	function search () {
 		var substring = $("#product_name").val();
