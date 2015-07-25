@@ -1,5 +1,5 @@
 import json
-from medify.models import *
+from medify.models import ApprovedMedication 
 import os
 data_file = open(os.path.join("data", "medicinal.json"))
 data = json.load(data_file)
@@ -27,12 +27,4 @@ ls= data["data"]
 for item in ls:
 	pharmacy= Pharmacy(**item)
 	pharmacy.save()
-
-data_file = open(os.path.join('data', 'devices.json'))
-data = json.load(data_file)
-
-ls= data["data"]
-for item in ls:
-	dev= ApprovedDevice(**item)
-	dev.save()
 	
