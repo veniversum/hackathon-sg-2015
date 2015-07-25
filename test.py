@@ -1,7 +1,7 @@
 import json
 from medify.models import ApprovedMedication 
-
-data_file = open('data\medicinal.json')
+import os
+data_file = open(os.path.join("data", "medicinal2.json"))
 data = json.load(data_file)
 
 ls= data["data"]
@@ -11,7 +11,7 @@ for item in ls:
 	med.save()
 	
 
-data_file = open('data\illegal.json')
+data_file = open(os.path.join('data', 'illegal.json'))
 data = json.load(data_file)
 
 ls= data["data"]
@@ -20,7 +20,7 @@ for item in ls:
 	med.save()
 
     
-data_file = open('data\pharmacies.json')
+data_file = open(os.path.join('data', 'pharmacies.json'))
 data = json.load(data_file)
 
 ls= data["data"]

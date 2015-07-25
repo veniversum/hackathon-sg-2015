@@ -5,6 +5,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link type="text/css" rel="stylesheet" href="{% static 'medify/css/materialize.css' %}"i/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         {% block css %}{% endblock %}
     </head>
 
@@ -20,6 +21,13 @@
                         <li><a href="{% url 'index' %}">Search</a></li>
                         <li><a href="{% url 'pharmacies' %}">Pharmacies</a></li>
                     </ul>
+                    <form class="right">
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label for="search"><i class="mdi-action-search"></i></label>
+                            <i class="mdi-navigation-close close"></i>
+                        </div>
+                    </form>
                 </div>
             </nav>
         </div>
