@@ -5606,6 +5606,8 @@ small {
   .card .card-action {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px; }
+    .card .card-action.type-marker{
+    padding: 10px; }
     .card .card-action a {
       color: #ffab40;
       margin-right: 20px;
@@ -5851,6 +5853,9 @@ button.btn-floating {
   padding-top: 15px;
   margin-bottom: 0;
   z-index: 998; }
+  .fixed-action-btn#filterbtn {
+    right: auto;
+  }
   .fixed-action-btn ul {
     left: 0;
     right: 0;

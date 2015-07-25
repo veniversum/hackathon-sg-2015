@@ -1,85 +1,97 @@
-{% extends 'medify/base.html' %} {% load staticfiles %}
-{% block title %}Search{% endblock %}
-{% block js %}
+{% extends 'medify/base.html' %} {% load staticfiles %} {% block title %}Search{% endblock %} {% block js %}
 <script type="text/javascript" src="{% static 'medify/js/index.js' %}"></script>
 {% endblock %} {% block content %}
 <div id="search">
     <ul class="collapsible" data-collapsible="accordion">
         <li style="border-bottom: 1px solid #ddd;">
             <div class="container">
-                <form>
-                    <div class="input-field">
-                        <i class="material-icons prefix">search</i>
-                        <input id="product_name" type="text">
-                        <label for="product_name">Product Name / Manufacturer / Active Ingredient</label>
-                    </div>
-                </form>
+                <div class="input-field">
+                    <i class="material-icons prefix">search</i>
+                    <input id="product_name" type="text">
+                    <label for="product_name">Product Name / Manufacturer / Active Ingredient</label>
+                </div>
             </div>
-
         </li>
         <li>
             <div class="collapsible-header grey lighten-5">
                 <div class="row">
-                <div class="col s10 offset-s1">
-                    <span class="card-title grey-text text-darken-4">Advanced Search
+                    <div class="col s10 offset-s1">
+                        <span class="card-title grey-text text-darken-4">Advanced Search
                         <i class="material-icons left">settings</i>
                     </span>
-                </div></div>
+                    </div>
+                </div>
             </div>
             <div class="collapsible-body grey lighten-4">
                 <div class="row">
-                <div class="col s10 offset-s1">
-                    <div class="row">
-                        <div class="input-field col s4">
-                            <input id="product_name_advanced" type="text">
-                            <label for="product_name_advanced">Product Name</label>
-                        </div>
-                        <div class="input-field col s4">
-                            <input id="manufacturer_advanced" type="text">
-                            <label for="manufacturer_advanced">Manufacturer</label>
-                        </div>
-                        <div class="input-field col s4">
-                            <input id="active_ingredient_advanced" type="text">
-                            <label for="active_ingredient_advanced">Active Ingredients</label>
-                        </div>
-                    </div>
-                    <div class="row valign-wrapper">
-                        <div class="input-field col s4">
-                            <div class="select-wrapper">
-                                <select>
-                                    <option value="" disabled selected>Choose your option</option>
-                                    <option value="general">General Sale List</option>
-                                    <option value="pharmacy">Pharmacy Only</option>
-                                    <option value="prescription">Prescription Only</option>
-                                </select>
+                    <div class="col s10 offset-s1">
+                        <div class="row">
+                            <div class="input-field col s4">
+                                <input id="product_name_advanced" type="text">
+                                <label for="product_name_advanced">Product Name</label>
                             </div>
-
-                            <label>Forensic Classification</label>
+                            <div class="input-field col s4">
+                                <input id="manufacturer_advanced" type="text">
+                                <label for="manufacturer_advanced">Manufacturer</label>
+                            </div>
+                            <div class="input-field col s4">
+                                <input id="active_ingredient_advanced" type="text">
+                                <label for="active_ingredient_advanced">Active Ingredients</label>
+                            </div>
                         </div>
-                        <!--TODO: Add date select-->
+                        <div class="row valign-wrapper">
+                            <div class="input-field col s4">
+                                <div class="select-wrapper">
+                                    <select id="f_class">
+                                        <option value="" disabled selected>Availability</option>
+                                        <option value="general">General Sale List</option>
+                                        <option value="pharmacy">Pharmacy Only</option>
+                                        <option value="prescription">Prescription Only</option>
+                                    </select>
+                                </div>
 
-                        <div class="input-field col s5">
-                            <input id="" type="text">
-                            <label for=""></label>
-                        </div>
-                        <div class="col s3 valign" style="padding:11px">
-                            <a class="waves-effect waves-light btn valign"><i class="material-icons right">send</i>Submit</a>
+                                <label>Forensic Classification</label>
+                            </div>
+                            <!--TODO: Add date select-->
+
+                            <div class="input-field col s3">
+                                <input id="fromdate" type="date" class="datepicker">
+                                <label for="fromdate">License Date (From)</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="todate" type="date" class="datepicker">
+                                <label for="todate">License Date (To)</label>
+                            </div>
+                            <div class="col s2 valign" style="padding:11px">
+                                <a id="advancedbtn" class="waves-effect waves-light btn valign" style="padding-left: 10px; padding-right: 10px;"><i class="material-icons right">send</i>Submit</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </li>
     </ul>
 </div>
 
-    <!--PLACEHOLDER DONTSHIP-->
-    <div id="results" class="row">
-    </div>
+<!--PLACEHOLDER DONTSHIP-->
+<div id="results" class="row">
+</div>
+
 <div id="clearbtn" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
     <a class="btn-floating btn-large red waves-effect waves-light red">
-      <i class="large material-icons">close</i>
+        <i class="large material-icons">close</i>
     </a>
+</div>
+
+<div id="filterbtn" class="fixed-action-btn" style="bottom: 45px; left: 24px;">
+    <a class="btn-floating btn-large red">
+        <i class="large material-icons">filter_list</i>
+    </a>
+    <ul>
+        <li><a class="btn-floating green lighten-2"><i class="material-icons">verified_user</i></i></a></li>
+        <li><a class="btn-floating red darken-1"><i class="material-icons">warning</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">memory</i></a></li>
+    </ul>
 </div>
 
 {% endblock %}

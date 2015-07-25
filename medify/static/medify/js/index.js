@@ -1,9 +1,34 @@
 $(document).ready(function () {
     $('#clearbtn').click(function () {
-        clearCards();
+        CC(); //clearCards()
     });
+
+    $('#advancedbtn').click(function () {
+        advanced();
+    });
+
     $('select').material_select();
+    $('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15 // Creates a dropdown of 15 years to control year
+    });
+
     var typingTimer;
+
+
+    function advanced() {
+        CC().done(
+            function () {
+                $.get("/medify/advanced_search", {
+                    name: $("#product_name_advanced").val(),
+                    manufacturer: $("#manufacturer_advanced").val(),
+                    active_ingredient: $("#active_ingredient_advanced").val(),
+                    f_class: $("#f_class").val(),
+                    fromdate: $("#fromdate").val(),
+                    todate: $("#todate").val()
+                })
+            });
+    }
 
     function search() {
         var substring = $("#product_name").val();
@@ -12,11 +37,15 @@ $(document).ready(function () {
                 $.get("/medify/search", {
                     search: substring
                 }).done(function (resp) {
+                    console.log(resp);
                     $.each(resp.approved_medication, function (k, v) {
-                        addItem(v, true);
+                        addItem(v, 0);
                     });
                     $.each(resp.illegal_medication, function (k, v) {
-                        addItem(v, false);
+                        addItem(v, 1);
+                    });
+                    $.each(resp.approved_devices, function (k, v) {
+                        addItem(v, 2);
                     });
                 });
             });
@@ -24,16 +53,21 @@ $(document).ready(function () {
 
     // Trigger search after not typing for 1s
     $("#product_name").keyup(function (e) {
-        clearTimeout(typingTimer);
-        typingTimer = setTimeout(search, 1000);
+        if (e.keyCode == 13) {
+            search();
+        } else {
+            clearTimeout(typingTimer);
+            if (!$("#product_name").val().trim())
+                typingTimer = setTimeout(search, 1000);
+        }
     });
     $("#product_name").keydown(function (e) {
         clearTimeout(typingTimer);
     });
 });
 
-function addItem(data, approved) {
-    if (approved) {
+function addItem(data, type) {
+    if (type === 0) {
         var div =
             '<div class="col s4">' +
             '    <div class="card small">' +
@@ -45,10 +79,12 @@ function addItem(data, approved) {
             '            <p class="grey-text text-darken-2">' + data.f_class + '</p>' +
             '            <p class="grey-text text-darken-2">' + data.dosage_form + ', ' + data.route + '</p>' +
             '        </div>' +
-            '       <div class="card-action green lighten-2">' +
-            '    </div>' +
-            '</div>';
-    } else {
+            '       <div class="card-action type-marker green lighten-2">' +
+            '       Approved Medicine'
+        '       </div>' +
+        '    </div>' +
+        '</div>';
+    } else if (type === 1) {
         var div =
             '<div class="col s4">' +
             '    <div class="card small">' +
@@ -60,7 +96,24 @@ function addItem(data, approved) {
             '            <p class="grey-text text-darken-2">' + data.remarks + '</p>' +
             '            <p class="grey-text text-darken-2">' + data.dosage_form_colour + ', ' + data.dosage_form_shape + ', ' + data.dosage_form + '</p>' +
             '        </div>' +
-            '       <div class="card-action red darken-1">' +
+            '       <div class="card-action type-marker red darken-1">' +
+            '       Illegal Medicine' +
+            '       </div>' +
+            '    </div>' +
+            '</div>';
+    } else if (type === 2) {
+        var div =
+            '<div class="col s4">' +
+            '    <div class="card small">' +
+            '        <div class="card-content">' +
+            '            <span class="card-title black-text"><p>' + data.device_name + '</p></span>' +
+            '            <p class="grey-text text-darken-2">' + data.description + '</p>' +
+            '            <p class="grey-text text-darken-2">' + data.product_owner_short_name + '</p>' +
+            '            <p class="grey-text text-darken-2">' + data.speciality + '</p>' +
+            '        </div>' +
+            '       <div class="card-action type-marker green lighten-2">' +
+            '       Approved Device' +
+            '       </div>' +
             '    </div>' +
             '</div>';
     }
@@ -68,14 +121,14 @@ function addItem(data, approved) {
 }
 
 var CC = function clearCards() {
-     var def = new $.Deferred();
+    var def = new $.Deferred();
     $('#results').fadeOut(400, function () {
         $('#results').empty()
     });
     $('#results').fadeIn(100);
     setTimeout(function () {
-    def.resolve();
-  }, 500);
+        def.resolve();
+    }, 500);
 
     return def;
 }
