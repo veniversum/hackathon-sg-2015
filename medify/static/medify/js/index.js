@@ -1,10 +1,11 @@
-$(document).ready(function() {
+$(document).ready(function () {
+    $('select').material_select();
 	var typingTimer;
-	function search () {
+	function search() {
 		var substring = $("#product_name").val();
 		$.get("/medify/search", {
-			search: substring,
-		}).done(function(resp) {
+			search: substring
+		}).done(function (resp) {
 			//TODO: Create cards
 			console.log(resp);
 		});
@@ -14,8 +15,8 @@ $(document).ready(function() {
 	$("#product_name").keyup(function(e) {
 		clearTimeout(typingTimer);
 		typingTimer = setTimeout(search, 1000);
-	})
+	});
 	$("#product_name").keydown(function(e) {
 		clearTimeout(typingTimer);
-	})
+	});
 });
