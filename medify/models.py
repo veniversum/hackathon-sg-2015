@@ -29,28 +29,6 @@ class IllegalMedication(models.Model):
 	
 class Pharmacy(models.Model):
     pharmacy_name = models.CharField(max_length=100)
-    zipcode = models.IntegerField(blank=True)
+    zipcode = models.IntegerField
     building = models.CharField(max_length=50)
     coords = models.CharField(max_length=50)
-    
-class ApprovedDevice(models.Model):
-	device_name = models.CharField(max_length=200,blank=True)
-	description	= models.TextField(blank=True)
-	gmdn = models.TextField(blank=True)
-	speciality = models.TextField(blank=True)
-	hs_code = models.CharField(max_length=50,blank=True)
-	hsa_product_code = models.CharField(max_length=50,blank=True)
-	medical_device_class = models.CharField(max_length=50,blank=True)
-	registration_number = models.CharField(max_length=50,blank=True)
-	registration_date = models.DateField()
-	change_date = models.CharField(max_length=50,blank=True)
-	expiry_date = models.DateField()
-	product_owner_name = models.TextField(blank=True)
-	product_owner_short_name = models.CharField(max_length=200,blank=True)
-	product_owner_address = models.TextField(blank=True)
-	registrant_name= models.CharField(max_length=200,blank=True)
-	registrant_address = models.TextField(blank=True)
-	imported_by_name= models.CharField(max_length=200,blank=True)
-	imported_by_address = models.TextField(blank=True)
-	models_name= models.TextField(blank=True)
-	identifier= models.TextField(blank=True)
