@@ -5,16 +5,23 @@
 {% block content %}
 <br><input id="button" type="button" value="Show Registered Pharmacies"/><br><br>
 <div id="divMain">
-    </div><br>
+</div>
+<br>
   <script type='text/JavaScript' src='http://www.onemap.sg/API/JS?accessKEY=o4AXRje/hx0BgO4owE0iK/4R/MXnMuXtyFF2loCYEB+OJfHp0CSeHRg6c5Hv3dxbtzUfvzqM0tox+cOdBxW+GSBGTgXrC9mj &v=3.10&type=full'></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script>    
-    var OneMap = new GetOneMap('divMain', 'sm');
     $(document).ready(function(){
-		 $("#button").click(function(){
-			OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
-		});
-		$("#button").click();
+      var OneMap = new GetOneMap('divMain', 'sm');
+      $("#divMain").bind('DOMNodeInserted DOMNodeRemoved', function() {
+        if (OneMap.map) {
+          console.log(OneMap);
+          $("#divMain").unbind('DOMNodeInserted DOMNodeRemoved');
+          OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
+        }
+      });
+		//  $("#button").click(function(){
+		// 	OneMap.overlayKML("{% static 'medify/pharmacy.kml' %}");
+		// });
+		// $("#button").click();
 	});
 
 </script>
