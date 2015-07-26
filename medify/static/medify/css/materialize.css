@@ -5593,7 +5593,7 @@ small {
       left: 0;
       padding: 20px; }
   .card .card-content {
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     border-radius: 0 0 2px 2px; }
     .card .card-content p {
       margin: 0;
