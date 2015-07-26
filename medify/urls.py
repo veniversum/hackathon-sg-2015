@@ -9,4 +9,5 @@ urlpatterns = [
 
     # AJAX stuff
     url(r"^search/$", views.omni_search, name="ajax_search"),
+    url(r"^advanced_search/$", views.adv_search, name="ajax_search"),
 ]

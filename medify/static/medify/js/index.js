@@ -44,7 +44,19 @@ $(document).ready(function () {
                     f_class: $("#f_class").val(),
                     fromdate: $("#fromdate").val(),
                     todate: $("#todate").val()
-                })
+                }).done(function (resp) {
+                    console.log(resp);
+                    $.each(resp.approved_medication, function (k, v) {
+                        addItem(v, 0);
+                    });
+                    $.each(resp.illegal_medication, function (k, v) {
+                        addItem(v, 1);
+                    });
+                    $.each(resp.approved_devices, function (k, v) {
+                        addItem(v, 2);
+                    });
+                    
+                });
             });
     }
 

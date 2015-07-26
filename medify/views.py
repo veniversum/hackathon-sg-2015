@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.db.models import Q
+from datetime import *
 from .models import *
 
 # Create your views here.
@@ -105,3 +106,41 @@ def omni_search(request):
                                 break
 
         return JsonResponse(results)
+
+def adv_search(request):
+	if request.method == "GET":
+		approvedMeds = ApprovedMedication.objects.all()
+		substring = request.GET["name"]
+		if len(substring)>0:
+			approvedMeds=approvedMeds.filter(product_name__icontains=substring)
+		substring = request.GET["manufacturer"]
+		if len(substring)>0:
+			approvedMeds=approvedMeds.filter(manufacturer__icontains=substring)
+		substring = request.GET["active_ingredient"]
+		if len(substring)>0:
+			approvedMeds=approvedMeds.filter(active_ingredients__icontains=substring)
+		substring = request.GET["f_class"]
+		if len(substring)>0:
+			approvedMeds=approvedMeds.filter(f_class__icontains=substring)
+		f_date= request.GET["fromdate"];
+		if len(f_date)>0:
+			if not f_date[1:2].isdigit():
+				f_date = "0"+f_date;
+			approvedMeds=approvedMeds.filter(approval_date__gte=datetime.strptime(f_date,"%d %B, %Y").date())
+		t_date=request.GET["todate"];
+		if len(t_date)>0:
+			if not t_date[1:2].isdigit():
+				t_date = "0"+t_date;
+			approvedMeds=approvedMeds.filter(approval_date__lte=datetime.strptime(t_date,"%d %B, %Y").date())
+		approvedMeds=approvedMeds[:10].values()
+		results = {
+            "illegal_medication": [],
+            "approved_medication": [],
+            "approved_devices": [],
+        }
+        for item in approvedMeds:
+            results["approved_medication"].append(item)
+            
+        return JsonResponse(results)
+		
+			
