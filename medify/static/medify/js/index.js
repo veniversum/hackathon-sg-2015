@@ -66,10 +66,12 @@ $(document).ready(function () {
         $('#deepsval').val("false");
         CC().done(
             function () {
+                showLoadingCircle();
                 $.get("/search", {
                     search: substring,
                     deep_search: deep_s
                 }).done(function (resp) {
+                    hideLoadingCircle();
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
                     });
@@ -176,4 +178,12 @@ function filterType(type) {
 
 function clearFilter() {
     $('#results > div.col.s4').show(400);
+}
+
+function showLoadingCircle() {
+    $('div#loading-circle').show();
+}
+
+function hideLoadingCircle() {
+    $('div#loading-circle').hide();
 }
