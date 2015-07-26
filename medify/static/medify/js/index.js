@@ -49,6 +49,7 @@ $(document).ready(function () {
                     hideLoadingCircle();
                     if (resp.approved_medication.length === 0) {
                         Materialize.toast('No results found!', 4000);
+                        $("#results").append($("<h2>No Results :(</h2>").css({"text-align": "center", "color": "rgb(125, 122, 122)"}));
                     }
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
@@ -80,7 +81,12 @@ $(document).ready(function () {
                     });
 
                     if (resp.approved_medication.length === 0 && resp.illegal_medication.length == 0 && resp.approved_devices.length == 0) {
-                        $('#modal1').openModal();
+                        if (deep_s === "false") {
+                            $('#modal1').openModal();
+                        }
+                        else {
+                            $("#results").append($("<h2>No Results :(</h2>").css({"text-align": "center", "color": "rgb(125, 122, 122)"}));
+                        }
                     }
                 });
             });
