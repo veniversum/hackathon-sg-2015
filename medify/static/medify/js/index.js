@@ -84,7 +84,9 @@ $(document).ready(function () {
                     });
 
                     if (resp.approved_medication.length === 0 && resp.illegal_medication.length == 0 && resp.approved_devices.length == 0) {
-                        $('#modal1').openModal();
+                        if (deep_s === "false") {
++                            $('#modal1').openModal();
++                        }
                     }
                 });
             });
