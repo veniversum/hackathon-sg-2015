@@ -45,7 +45,6 @@ $(document).ready(function () {
                     search: substring,
                     deep_search: deep_s
                 }).done(function (resp) {
-                    console.log(resp);
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
                     });
@@ -66,10 +65,11 @@ $(document).ready(function () {
     // Trigger search after not typing for 1s
     $("#product_name").keyup(function (e) {
         if (e.keyCode == 13) {
+            clearTimeout(typingTimer);
             search();
         } else {
             clearTimeout(typingTimer);
-            if (!$("#product_name").val().trim())
+            if (!!$("#product_name").val().trim())
                 typingTimer = setTimeout(search, 1000);
         }
     });
