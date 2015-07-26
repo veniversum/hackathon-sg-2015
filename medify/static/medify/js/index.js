@@ -24,7 +24,7 @@ $(document).ready(function () {
     function advanced() {
         CC().done(
             function () {
-                $.get("/medify/advanced_search", {
+                $.get("/advanced_search", {
                     name: $("#product_name_advanced").val(),
                     manufacturer: $("#manufacturer_advanced").val(),
                     active_ingredient: $("#active_ingredient_advanced").val(),
@@ -41,7 +41,7 @@ $(document).ready(function () {
         $('#deepsval').val("false");
         CC().done(
             function () {
-                $.get("/medify/search", {
+                $.get("/search", {
                     search: substring,
                     deep_search: deep_s
                 }).done(function (resp) {
