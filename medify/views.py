@@ -70,10 +70,8 @@ def omni_search(request):
         for item in approvedDeviceMatch:
             results["approved_devices"].append(item)
 
-        tsum = len(results["illegal_medication"]) + len(results["approved_medication"]) + len(results["approved_devices"])
-		
-	deep_search = request.GET["deep_search"]
-		
+        deep_search = request.GET["deep_search"]
+
         if deep_search.lower() in ['true', '1', 't']:
             count = 0
             illegalMedValues = illegalMeds.values()
