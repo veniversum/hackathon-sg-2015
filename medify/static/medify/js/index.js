@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('#advancedbtn').click(function () {
         advanced();
     });
-    
+
     $('#filterbtn').click(function () {
         clearFilter();
     });
@@ -27,16 +27,17 @@ $(document).ready(function () {
     });
 
     var typingTimer;
-    
-    $('#deepsbtn').click(function() {
-		$('#deepsval').val("true");
-		search();
-	});
+
+    $('#deepsbtn').click(function () {
+        $('#deepsval').val("true");
+        search();
+    });
 
 
     function advanced() {
         CC().done(
             function () {
+                showLoadingCircle();
                 $.get("/advanced_search", {
                     name: $("#product_name_advanced").val(),
                     manufacturer: $("#manufacturer_advanced").val(),
@@ -45,24 +46,20 @@ $(document).ready(function () {
                     fromdate: $("#fromdate").val(),
                     todate: $("#todate").val()
                 }).done(function (resp) {
-                    console.log(resp);
+                    hideLoadingCircle();
+                    if (resp.approved_medication.length === 0) {
+                        Materialize.toast('No results found!', 4000);
+                    }
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
                     });
-                    $.each(resp.illegal_medication, function (k, v) {
-                        addItem(v, 1);
-                    });
-                    $.each(resp.approved_devices, function (k, v) {
-                        addItem(v, 2);
-                    });
-                    
                 });
             });
     }
 
     function search() {
         var substring = $("#product_name").val();
-        var deep_s =  $("#deepsval").val();
+        var deep_s = $("#deepsval").val();
         $('#deepsval').val("false");
         CC().done(
             function () {
@@ -81,10 +78,10 @@ $(document).ready(function () {
                     $.each(resp.approved_devices, function (k, v) {
                         addItem(v, 2);
                     });
-                    
-                    if(resp.approved_medication.length==0 && resp.illegal_medication.length==0 && resp.approved_devices.length==0){
-						$('#modal1').openModal();
-					}
+
+                    if (resp.approved_medication.length === 0 && resp.illegal_medication.length == 0 && resp.approved_devices.length == 0) {
+                        $('#modal1').openModal();
+                    }
                 });
             });
     }
@@ -173,7 +170,9 @@ var CC = function clearCards() {
 }
 
 function filterType(type) {
-    $('#results > div.col.s4').not('.t'+type).hide(250, function(){$('#results > div.col.s4.t'+type).show(250);});    
+    $('#results > div.col.s4').not('.t' + type).hide(250, function () {
+        $('#results > div.col.s4.t' + type).show(250);
+    });
 }
 
 function clearFilter() {
