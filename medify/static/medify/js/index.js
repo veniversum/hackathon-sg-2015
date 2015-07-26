@@ -73,6 +73,7 @@ $(document).ready(function () {
                     deep_search: deep_s
                 }).done(function (resp) {
                     hideLoadingCircle();
+
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
                     });
@@ -85,8 +86,8 @@ $(document).ready(function () {
 
                     if (resp.approved_medication.length === 0 && resp.illegal_medication.length == 0 && resp.approved_devices.length == 0) {
                         if (deep_s === "false") {
-+                            $('#modal1').openModal();
-+                        }
+                            $('#modal1').openModal();
+                        }
                     }
                 });
             });
