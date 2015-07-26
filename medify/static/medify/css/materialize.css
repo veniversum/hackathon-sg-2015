@@ -8159,3 +8159,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
      top:45%;
      left:50%;
 }
+
+.promo i{
+    margin: 40px 0;
+    color: #ee6e73;
+    font-size: 7rem;
+    display: block;
+}
+
+.promo-caption {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}   
+
+p.intro {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #808080;
+    text-align: center;
+}
