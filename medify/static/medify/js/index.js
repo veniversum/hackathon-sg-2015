@@ -4,13 +4,21 @@ $(document).ready(function () {
     });
     $('select').material_select();
     var typingTimer;
+    
+    $('#deepsbtn').click(function() {
+		$('#deepsval').val("true");
+		search();
+	});
 
     function search() {
         var substring = $("#product_name").val();
+        var deep_s =  $("#deepsval").val();
+        $('#deepsval').val("false");
         CC().done(
             function () {
                 $.get("/medify/search", {
-                    search: substring
+                    search: substring,
+                    deep_search: deep_s
                 }).done(function (resp) {
                     $.each(resp.approved_medication, function (k, v) {
                         addItem(v, true);
@@ -18,6 +26,10 @@ $(document).ready(function () {
                     $.each(resp.illegal_medication, function (k, v) {
                         addItem(v, false);
                     });
+                    
+                    if(resp.approved_medication.length==0 && resp.illegal_medication.length==0 && resp.approved_devices.length==0){
+						$('#modal1').openModal();
+					}
                 });
             });
     }
