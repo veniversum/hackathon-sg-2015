@@ -6,6 +6,19 @@ $(document).ready(function () {
     $('#advancedbtn').click(function () {
         advanced();
     });
+    
+    $('#filterbtn').click(function () {
+        clearFilter();
+    });
+    $('#filter_am').click(function () {
+        filterType(0);
+    });
+    $('#filter_im').click(function () {
+        filterType(1);
+    });
+    $('#filter_ad').click(function () {
+        filterType(2);
+    });
 
     $('select').material_select();
     $('.datepicker').pickadate({
@@ -81,7 +94,7 @@ $(document).ready(function () {
 function addItem(data, type) {
     if (type === 0) {
         var div =
-            '<div class="col s4">' +
+            '<div class="col s4 t0">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -98,7 +111,7 @@ function addItem(data, type) {
         '</div>';
     } else if (type === 1) {
         var div =
-            '<div class="col s4">' +
+            '<div class="col s4 t1">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -115,7 +128,7 @@ function addItem(data, type) {
             '</div>';
     } else if (type === 2) {
         var div =
-            '<div class="col s4">' +
+            '<div class="col s4 t2">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.device_name + '</p></span>' +
@@ -143,4 +156,12 @@ var CC = function clearCards() {
     }, 500);
 
     return def;
+}
+
+function filterType(type) {
+    $('#results > div.col.s4').not('.t'+type).hide(250, function(){$('#results > div.col.s4.t'+type).show(250);});    
+}
+
+function clearFilter() {
+    $('#results > div.col.s4').show(400);
 }

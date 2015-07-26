@@ -5853,7 +5853,7 @@ button.btn-floating {
   padding-top: 15px;
   margin-bottom: 0;
   z-index: 998; }
-  .fixed-action-btn#filterbtn {
+  .fixed-action-btn#filtermenu {
     right: auto;
   }
   .fixed-action-btn ul {
