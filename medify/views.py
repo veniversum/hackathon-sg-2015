@@ -3,7 +3,6 @@ from django.http import JsonResponse
 from django.db.models import Q
 from datetime import *
 from .models import *
-
 # Create your views here.
 
 
