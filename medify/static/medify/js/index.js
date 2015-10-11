@@ -84,7 +84,7 @@ $(document).ready(function () {
                         addItem(v, 2);
                     });
 
-                    if (resp.approved_medication.length === 0 && resp.illegal_medication.length == 0 && resp.approved_devices.length == 0) {
+                    if (resp.approved_medication.length === 0 && resp.illegal_medication.length === 0 && resp.approved_devices.length === 0) {
                         if (deep_s === "false") {
                             $('#modal1').openModal();
                         }
@@ -110,8 +110,9 @@ $(document).ready(function () {
 });
 
 function addItem(data, type) {
+    var div;
     if (type === 0) {
-        var div =
+        div =
             '<div class="col s4 t0">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
@@ -123,12 +124,12 @@ function addItem(data, type) {
             '            <p class="grey-text text-darken-2">' + data.dosage_form + ', ' + data.route + '</p>' +
             '        </div>' +
             '       <div class="card-action type-marker green lighten-2">' +
-            '       Approved Medicine'
-        '       </div>' +
-        '    </div>' +
-        '</div>';
+            '       Approved Medicine' +
+            '       </div>' +
+            '    </div>' +
+            '</div>';
     } else if (type === 1) {
-        var div =
+        div =
             '<div class="col s4 t1">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
@@ -145,7 +146,7 @@ function addItem(data, type) {
             '    </div>' +
             '</div>';
     } else if (type === 2) {
-        var div =
+        div =
             '<div class="col s4 t2">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
@@ -166,7 +167,7 @@ function addItem(data, type) {
 var CC = function clearCards() {
     var def = new $.Deferred();
     $('#results').fadeOut(400, function () {
-        $('#results').empty()
+        $('#results').empty();
     });
     $('#results').fadeIn(100);
     setTimeout(function () {
@@ -174,7 +175,7 @@ var CC = function clearCards() {
     }, 500);
 
     return def;
-}
+};
 
 function clearForms() {
     $(this).find("input").val('');

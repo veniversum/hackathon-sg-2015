@@ -1,8 +1,10 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.db.models import Q
+from django.core.serializers.python import Serializer
 from datetime import *
 from .models import *
+from . import  matching
 # Create your views here.
 
 
@@ -12,7 +14,6 @@ def index(request):
 
 def pharmacies(request):
     return render(request, "medify/pharmacies.html", {})
-
 
 def fuzzy_substring(needle, haystack):
     """Calculates the fuzzy match of needle in haystack,
@@ -39,6 +40,36 @@ def fuzzy_substring(needle, haystack):
             )
         row1 = row2
     return min(row1)
+
+
+class FieldSerializer(Serializer):
+    def end_object(self, obj):
+        self._current["id"] = obj._get_pk_val()
+        self.objects.append(self._current)
+
+
+def resultModelToJson(serializer, results, model):
+    return serializer.serialize(
+            instance
+            for instance in model.objects.in_bulk(
+                {id
+                for r in results
+                for id in r[1].get(model, list())}
+            ).values())
+
+TRIE = matching.loadTrie()
+def omni_search2(request):
+    if request.method == "GET":
+        substring = request.GET["search"]
+
+        results = matching.search(substring, 2, TRIE)
+    
+        serializer = FieldSerializer()
+        return JsonResponse({
+            "illegal_medication": resultModelToJson(serializer, results, IllegalMedication), 
+            "approved_medication": resultModelToJson(serializer, results, ApprovedMedication),
+            "approved_devices": resultModelToJson(serializer, results, ApprovedDevice)
+        })
 
 
 def omni_search(request):

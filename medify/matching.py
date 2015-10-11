@@ -4,33 +4,52 @@ import re
 class TrieNode:
     def __init__(self):
         self.word = None
+        self.modelIds = None 
         self.children = {}
 
-    def insert(self, word):
+    def insert(self, row, model):
         node = self
-        for character in word:
-            if character not in node.children:
-                node.children[character] = TrieNode()
+        id, *fields = row
+        
+        for field in fields:
+            for word in re.split(r',|!|\?| |\.|\n|\(|\)|\+|/|\"|\'', field.lower()):
+                for character in word:
+                    if character not in node.children:
+                        node.children[character] = TrieNode()
 
-            node = node.children[character]
+                    node = node.children[character]
 
-        node.word = word
-
+                node.word = word
+                
+                # Save space by creating dicts only when needed
+                if not node.modelIds:
+                    node.modelIds = {}
+                if model not in node.modelIds:
+                    node.modelIds[model] = set()
+                # Store ids of relevant rows
+                node.modelIds[model].add(id)
+                
+                # Reset node to root for adding new words
+                node = self
 
 def loadTrie():
-    illegalMeds = IllegalMedication.objects.all().values_list("product_name", "manufacturer")
-    approvedMeds = ApprovedMedication.objects.all().values_list("product_name", "manufacturer", "active_ingredients")
-    approvedDevices = ApprovedDevice.objects.all().values_list("device_name", "product_owner_name", "models_name")
-
-    words = set()
-    for l in (illegalMeds, approvedMeds, approvedDevices):
-        for row in l:
-            for col in row:
-                words.update(re.split(r',|!|\?| |\.|\n|\(|\)|\+|/|\"|\'', col.lower()))
+    illegalMeds = IllegalMedication.objects.all().values_list("id", "product_name", "manufacturer")
+    approvedMeds = ApprovedMedication.objects.all().values_list("id", "product_name", "manufacturer", "active_ingredients")
+    approvedDevices = ApprovedDevice.objects.all().values_list("id", "device_name", "product_owner_name", "models_name")
 
     trie = TrieNode()
-    for word in words:
-        trie.insert(word)
+
+    for row in illegalMeds:
+        trie.insert(row, IllegalMedication)
+    print("Completed Illegal Medication")
+
+    for row in approvedMeds:
+        trie.insert(row, ApprovedMedication)
+    print("Completed Approved Medication")
+
+    for row in approvedDevices:
+        trie.insert(row, ApprovedDevice)
+    print("Completed Approved Devices")
 
     return trie
 
@@ -43,7 +62,7 @@ def search(word, maxCost, trie):
     for character in trie.children:
         searchRecursive(trie.children[character], character, word, currentRow, results, maxCost)
 
-    return results
+    return sorted(results, key=lambda r: r[2])
 
 
 def searchRecursive(node, character, word, previousRow, results, maxCost):
@@ -62,7 +81,7 @@ def searchRecursive(node, character, word, previousRow, results, maxCost):
         currentRow.append(min(insertCost, deleteCost, replaceCost))
 
     if currentRow[-1] <= maxCost and node.word is not None:
-        results.append((node.word, currentRow[-1]))
+        results.append((node.word, node.modelIds, currentRow[-1]))
 
     if min(currentRow) <= maxCost:
         for character in node.children:
