@@ -33,6 +33,48 @@ $(document).ready(function () {
         search();
     });
 
+    var SEARCH_STATE = {
+        omni: {
+            substring: null,
+            next_page: null,
+        }
+    };
+    
+    function loadNextPage() {
+        if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
+            if (!!SEARCH_STATE.omni.substring && !!SEARCH_STATE.omni.next_page) {
+                $(window).unbind("scroll"); //Prevent looping
+
+                showLoadingCircle();
+
+                $.get("/search", {
+                    search: SEARCH_STATE.omni.substring,
+                    page: SEARCH_STATE.omni.next_page
+                }).done(function(resp) {
+                    hideLoadingCircle();
+
+                    SEARCH_STATE.omni.next_page = resp.next_page;
+
+                    $.each(resp.results, function(i, v) {
+                        if (v.model === "ApprovedMedication") {
+                            addItem(v, 0);
+                        }
+                        else if (v.model === "IllegalMedication") {
+                            addItem(v, 1);
+                        }
+                        else if (v.model === "ApprovedDevices") {
+                            addItem(v, 2);
+                        }
+                    });
+
+                    $(window).scroll(loadNextPage); //Bind back when done loading
+                });
+            }
+        }
+    }
+
+    $(window).scroll(loadNextPage);
+
 
     function advanced() {
         CC().done(
@@ -74,7 +116,22 @@ $(document).ready(function () {
                 }).done(function (resp) {
                     hideLoadingCircle();
 
-                    $.each(resp.approved_medication, function (k, v) {
+                    SEARCH_STATE.omni.substring = substring;
+                    SEARCH_STATE.omni.next_page = resp.next_page;
+
+                    $.each(resp.results, function(i, v) {
+                        if (v.model === "ApprovedMedication") {
+                            addItem(v, 0);
+                        }
+                        else if (v.model === "IllegalMedication") {
+                            addItem(v, 1);
+                        }
+                        else if (v.model === "ApprovedDevice") {
+                            addItem(v, 2);
+                        }
+                    });
+
+                    /*$.each(resp.approved_medication, function (k, v) {
                         addItem(v, 0);
                     });
                     $.each(resp.illegal_medication, function (k, v) {
@@ -82,13 +139,13 @@ $(document).ready(function () {
                     });
                     $.each(resp.approved_devices, function (k, v) {
                         addItem(v, 2);
-                    });
+                    });*/
 
-                    if (resp.approved_medication.length === 0 && resp.illegal_medication.length === 0 && resp.approved_devices.length === 0) {
+                    /*if (resp.approved_medication.length === 0 && resp.illegal_medication.length === 0 && resp.approved_devices.length === 0) {
                         if (deep_s === "false") {
                             $('#modal1').openModal();
                         }
-                    }
+                    }*/
                 });
             });
     }
@@ -113,7 +170,7 @@ function addItem(data, type) {
     var div;
     if (type === 0) {
         div =
-            '<div class="col s4 t0">' +
+            '<div class="col s12 t0">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -130,7 +187,7 @@ function addItem(data, type) {
             '</div>';
     } else if (type === 1) {
         div =
-            '<div class="col s4 t1">' +
+            '<div class="col s12 t1">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -147,7 +204,7 @@ function addItem(data, type) {
             '</div>';
     } else if (type === 2) {
         div =
-            '<div class="col s4 t2">' +
+            '<div class="col s12 t2">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.device_name + '</p></span>' +
@@ -182,13 +239,13 @@ function clearForms() {
 }
 
 function filterType(type) {
-    $('#results > div.col.s4').not('.t' + type).hide(250, function () {
-        $('#results > div.col.s4.t' + type).show(250);
+    $('#results > div.col').not('.t' + type).hide(250, function () {
+        $('#results > div.col.t' + type).show(250);
     });
 }
 
 function clearFilter() {
-    $('#results > div.col.s4').show(400);
+    $('#results > div.col').show(400);
 }
 
 function showLoadingCircle() {

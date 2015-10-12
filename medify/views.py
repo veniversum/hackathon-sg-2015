@@ -2,7 +2,9 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.db.models import Q
 from django.core.serializers.python import Serializer
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from datetime import *
+from functools import reduce
 from .models import *
 from . import  matching
 # Create your views here.
@@ -41,21 +43,18 @@ def fuzzy_substring(needle, haystack):
         row1 = row2
     return min(row1)
 
-
-class FieldSerializer(Serializer):
+class FieldSerialiser(Serializer):
     def end_object(self, obj):
-        self._current["id"] = obj._get_pk_val()
+        self._current['id'] = obj._get_pk_val()
+        self._current['model'] = obj._meta.object_name
         self.objects.append(self._current)
 
+def resultsGetModels(results, model):
+    return model.objects.in_bulk(reduce(
+            lambda a, b: a | b,
+            [r[1].get(model, set()) for r in results],
+            set()))
 
-def resultModelToJson(serializer, results, model):
-    return serializer.serialize(
-            instance
-            for instance in model.objects.in_bulk(
-                {id
-                for r in results
-                for id in r[1].get(model, list())}
-            ).values())
 
 TRIE = matching.loadTrie()
 def omni_search2(request):
@@ -63,14 +62,46 @@ def omni_search2(request):
         substring = request.GET["search"]
 
         results = matching.search(substring, 2, TRIE)
-    
-        serializer = FieldSerializer()
-        return JsonResponse({
-            "illegal_medication": resultModelToJson(serializer, results, IllegalMedication), 
-            "approved_medication": resultModelToJson(serializer, results, ApprovedMedication),
-            "approved_devices": resultModelToJson(serializer, results, ApprovedDevice)
-        })
+        
+        # Extract model instances in bulk
+        illegalMeds = resultsGetModels(results, IllegalMedication)
+        approvedMeds = resultsGetModels(results, ApprovedMedication)
+        approvedDevices = resultsGetModels(results, ApprovedDevice)
+        
+        # Order model instances according to edit distance
+        resp = []
+        for r in results:
+            resp.extend([
+                illegalMeds[id]
+                for id in r[1].get(IllegalMedication, set())
+            ])
+            resp.extend([
+                approvedMeds[id]
+                for id in r[1].get(ApprovedMedication, set())
+            ])
+            resp.extend([
+                approvedDevices[id]
+                for id in r[1].get(ApprovedDevice, set())
+            ])
 
+        paginator = Paginator(resp, 100000)
+
+        page = request.GET.get("page")
+        try:
+            resp_page = paginator.page(page)
+        except PageNotAnInteger:
+            resp_page = paginator.page(1)
+        except EmptyPage:
+            resp_page = paginator.page(paginator.num_pages)
+
+        serializer = FieldSerialiser()
+        return JsonResponse({
+            "page": resp_page.number,
+            "next_page": resp_page.next_page_number() if resp_page.has_next() else None,
+            "num_pages": paginator.num_pages,
+            "results": serializer.serialize(resp_page)
+        }, safe=False)
+    
 
 def omni_search(request):
     if request.method == "GET":
