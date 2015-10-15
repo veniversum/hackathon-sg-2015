@@ -1,3 +1,26 @@
+var SEARCH_STATE = {
+    omni: {
+        substring: null,
+        next_page: true,
+        num_per_page: 15,
+        curr_page: 1,
+        results: null,
+        filterType: ""
+    }
+};
+
+function addValue(v) {
+    if (v.model === "ApprovedMedication") {
+        addItem(v, 0);
+    }
+    else if (v.model === "IllegalMedication") {
+        addItem(v, 1);
+    }
+    else if (v.model === "ApprovedDevices") {
+        addItem(v, 2);
+    }
+}
+
 $(document).ready(function () {
     $('#clearbtn').click(function () {
         CC(); //clearCards()
@@ -11,13 +34,13 @@ $(document).ready(function () {
         clearFilter();
     });
     $('#filter_am').click(function () {
-        filterType(0);
+        filterType("ApprovedMedication");
     });
     $('#filter_im').click(function () {
-        filterType(1);
+        filterType("IllegalMedication");
     });
     $('#filter_ad').click(function () {
-        filterType(2);
+        filterType("ApprovedDevice");
     });
 
     $('select').material_select();
@@ -33,48 +56,45 @@ $(document).ready(function () {
         search();
     });
 
-    var SEARCH_STATE = {
-        omni: {
-            substring: null,
-            next_page: null,
-        }
-    };
-    
     function loadNextPage() {
         if ($(window).scrollTop() >= $(document).height() - $(window).height()) {
-            if (!!SEARCH_STATE.omni.substring && !!SEARCH_STATE.omni.next_page) {
+            if (!!SEARCH_STATE.omni.substring && SEARCH_STATE.omni.next_page) {
                 $(window).unbind("scroll"); //Prevent looping
 
-                showLoadingCircle();
-
-                $.get("/search", {
-                    search: SEARCH_STATE.omni.substring,
-                    page: SEARCH_STATE.omni.next_page
-                }).done(function(resp) {
-                    hideLoadingCircle();
-
-                    SEARCH_STATE.omni.next_page = resp.next_page;
-
-                    $.each(resp.results, function(i, v) {
-                        if (v.model === "ApprovedMedication") {
-                            addItem(v, 0);
-                        }
-                        else if (v.model === "IllegalMedication") {
-                            addItem(v, 1);
-                        }
-                        else if (v.model === "ApprovedDevices") {
-                            addItem(v, 2);
+                //showLoadingCircle();
+                console.log("loading next page");
+                
+                var data;
+                if (SEARCH_STATE.omni.filterType !== "") {
+                    data = SEARCH_STATE.omni.results.filter(function(v) {
+                        if (v.model == SEARCH_STATE.omni.filterType) {
+                            return true;
                         }
                     });
-
-                    $(window).scroll(loadNextPage); //Bind back when done loading
+                }
+                else {
+                    data = SEARCH_STATE.omni.results;
+                }
+                var start = (SEARCH_STATE.omni.curr_page - 1) * SEARCH_STATE.omni.num_per_page;
+                var end = start + SEARCH_STATE.omni.num_per_page;
+                if (end >= data.length) {
+                    end = data.length;
+                    SEARCH_STATE.omni.next_page = false;
+                }
+                else {
+                    SEARCH_STATE.omni.curr_page += 1;
+                }
+                $.each(data.slice(start, end), function(i, v){
+                    addValue(v);
                 });
+                
+                $(window).scroll(loadNextPage); //Bind back when done loading
+
             }
         }
     }
 
     $(window).scroll(loadNextPage);
-
 
     function advanced() {
         CC().done(
@@ -115,20 +135,16 @@ $(document).ready(function () {
                     deep_search: deep_s
                 }).done(function (resp) {
                     hideLoadingCircle();
-
+                    
                     SEARCH_STATE.omni.substring = substring;
-                    SEARCH_STATE.omni.next_page = resp.next_page;
+                    SEARCH_STATE.omni.next_page = true;
+                    SEARCH_STATE.omni.results = resp.results;
+                    SEARCH_STATE.omni.curr_page = 1;
+                    SEARCH_STATE.omni.filterType = "";
 
-                    $.each(resp.results, function(i, v) {
-                        if (v.model === "ApprovedMedication") {
-                            addItem(v, 0);
-                        }
-                        else if (v.model === "IllegalMedication") {
-                            addItem(v, 1);
-                        }
-                        else if (v.model === "ApprovedDevice") {
-                            addItem(v, 2);
-                        }
+                    var end = SEARCH_STATE.omni.num_per_page;
+                    $.each(resp.results.slice(0, end), function(i, v) {
+                        addValue(v);
                     });
 
                     /*$.each(resp.approved_medication, function (k, v) {
@@ -239,13 +255,35 @@ function clearForms() {
 }
 
 function filterType(type) {
-    $('#results > div.col').not('.t' + type).hide(250, function () {
+    /*$('#results > div.col').not('.t' + type).hide(250, function () {
         $('#results > div.col.t' + type).show(250);
-    });
+    });*/
+   SEARCH_STATE.omni.filterType = type;
+   SEARCH_STATE.omni.curr_page = 1;
+   SEARCH_STATE.omni.next_page = true;
+   $("#results").empty();
+
+   var data = SEARCH_STATE.omni.results.filter(function(v) {
+        return v.model === type;
+   });
+
+   $.each(data.slice(0, SEARCH_STATE.omni.num_per_page), function(i, v) {
+        addValue(v);
+   });
 }
 
 function clearFilter() {
-    $('#results > div.col').show(400);
+    //$('#results > div.col').show(400);
+    SEARCH_STATE.omni.filterType = "";
+    SEARCH_STATE.omni.curr_page = 1;
+    SEARCH_STATE.omni.next_page = true;
+    $("#results").empty();
+
+    var end = SEARCH_STATE.omni.num_per_page;
+    var data = SEARCH_STATE.omni.results;
+    $.each(data.slice(0, end), function(i, v) {
+        addValue(v);
+    });
 }
 
 function showLoadingCircle() {
