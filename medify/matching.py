@@ -9,7 +9,8 @@ class TrieNode:
 
     def insert(self, row, model):
         node = self
-        id, *fields = row
+        id = row[0]
+        fields = row[1:]
         
         for field in fields:
             for word in re.split(r',|!|\?| |\.|\n|\(|\)|\+|/|\"|\'', field.lower()):

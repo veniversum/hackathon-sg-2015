@@ -170,7 +170,7 @@ function addItem(data, type) {
     var div;
     if (type === 0) {
         div =
-            '<div class="col s12 t0">' +
+            '<div class="col s4 t0">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -187,7 +187,7 @@ function addItem(data, type) {
             '</div>';
     } else if (type === 1) {
         div =
-            '<div class="col s12 t1">' +
+            '<div class="col s4 t1">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.product_name + '</p></span>' +
@@ -204,7 +204,7 @@ function addItem(data, type) {
             '</div>';
     } else if (type === 2) {
         div =
-            '<div class="col s12 t2">' +
+            '<div class="col s4 t2">' +
             '    <div class="card small">' +
             '        <div class="card-content">' +
             '            <span class="card-title black-text"><p>' + data.device_name + '</p></span>' +
