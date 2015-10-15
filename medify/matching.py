@@ -37,7 +37,7 @@ def loadTrie():
     illegalMeds = IllegalMedication.objects.all().values_list("id", "product_name", "manufacturer")
     approvedMeds = ApprovedMedication.objects.all().values_list("id", "product_name", "manufacturer", "active_ingredients")
     approvedDevices = ApprovedDevice.objects.all().values_list("id", "device_name", "product_owner_name", "models_name")
-
+    chineseMed = ChineseMedication.objects.all().values_list("product_name","brand_name","company_name","manufacturer")
     trie = TrieNode()
 
     for row in illegalMeds:
@@ -51,6 +51,10 @@ def loadTrie():
     for row in approvedDevices:
         trie.insert(row, ApprovedDevice)
     print("Completed Approved Devices")
+    
+    for row in chineseMed:
+        trie.insert(row, ChineseMedication)
+    print("Completed Chinese Medication")
 
     return trie
 

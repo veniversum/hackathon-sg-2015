@@ -15,6 +15,14 @@ class ApprovedMedication(models.Model):
 	country = models.CharField(max_length=50)
 	active_ingredients = models.TextField()
 	strength = models.TextField()
+
+class ChineseMedication(models.Model):
+    product_name = models.CharField(max_length=100)
+    brand_name = models.CharField(max_length=100)
+    company_name = models.CharField(max_length=100)
+    dosage_form = models.CharField(max_length=50)
+    manufacturer = models.CharField(max_length=200)
+    country = models.CharField(max_length=50)
 	
 class IllegalMedication(models.Model):
 	product_name = models.CharField(max_length=100)
